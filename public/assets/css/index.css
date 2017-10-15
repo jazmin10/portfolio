@@ -13,6 +13,74 @@ body {
 	height: 100vh;
 }
 
+/* ================ NAVBAR ================*/
+.navbar {
+	background: transparent;
+	border-color: transparent;
+}
+
+/* Centering Navbar Content */
+ul.nav.navbar-nav {
+	width: 100%;
+	text-align: center;
+	background: #000000;
+	padding-bottom: 5px;
+}
+
+.navbar-nav li {
+	display: inline-block;
+    float: none;
+    margin-right: 5%;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+	font-family: 'Lato', Open Sans, Arial;
+	/*font-size: 130%;*/
+	letter-spacing: 10px;
+}
+
+.navbar-nav li:last-child {
+	margin-right: 0px;
+}
+
+/* Collapsable Navbar */
+.navbar-collapse {
+	border: none;
+	background: black;
+}
+
+.collapse.navbar-collapse.scroll-navbar {
+	display: none!important;
+}
+
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+
+/* Navbar Header Background Color */
+.navbar-header.spread-menu {
+	background: #000000;
+}
+
+/* Navbar Toggle Button */
+button.navbar-toggle {
+	background: #000000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+
+/* Navbar Image */
+#je-logo-li {
+	width: 10%;
+}
+
+#je-logo {
+	width: 100%;
+}
+
+
 /* ================ FLY-IN TEXT ================*/
 .fly-in-text {
 	color: #ffffff;
@@ -20,7 +88,7 @@ body {
 	/*left: 30%;*/
 	top: 50%;
 	position: absolute;
-	transform: translateX(10%) translateY(-50%);
+	transform: translateX(19%) translateY(-50%);
 }
 
 .fly-in-text li {
@@ -28,7 +96,7 @@ body {
 	font-family: 'Lato', Open Sans, Arial;
 	font-weight: 300;
 	font-size: 3em;
-	margin-right: 30px;
+	margin-right: 35px;
 	opacity: 1;
 	transition: all 3.5s ease;
 }
@@ -66,7 +134,7 @@ body {
 	font-weight: 300;
 	font-size: 1.5em;
 	letter-spacing: 25px;
-	transform: translateX(50%);
+	transform: translateX(68%);
 }
 
 .fade-in {
@@ -83,12 +151,14 @@ body {
 	border-color: #00bfff;
 	box-shadow: 0px 0px 15px #00ffff;
 	height: 100%;
+	overflow: auto;
 }
 
 #autotrack-logo {
-	align-content: center;
+	/*align-content: center;*/
 	font-family: 'Geo', sans-serif;
-	font-size: 300%;
+	font-size: 500%;
+	text-align: center;
 	color: #00bfff;
 	text-shadow: 0px 0px 35px #00ffff;
 
@@ -98,16 +168,52 @@ body {
 	width: 75%;
 }
 
+/* ================ CODEHIVE DIV ================*/
+
 #codehive-project {
-	background: url("https://www.xmple.com/wallpaper/hexagon-beehive-black-yellow-honeycomb-5120x2880-c2-ffd700-000000-l2-35-436-a-0-f-5.svg") no-repeat;
-	background: url("https://www.xmple.com/wallpaper/orange-honeycomb-beehive-hexagon-3200x1800-c2-e49508-ffb635-l2-31-382-a-0-f-5.svg") no-repeat;
 	background: url("../images/hive-background.svg") no-repeat;
-	background-size: 100%;
+	padding: 10%;
+	padding-top: 15%;
+	overflow: auto;
 }
+
+#codehive-logo {
+	color: #fff;
+	font-size: 400%;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+
+
+	display: block;
+	background: #000000;
+	margin: 0 auto;
+	width: 60%;
+	border-radius: 10px;
+}
+
+#codehive-project button {
+	margin-top: 7%;
+}
+
+
+/* ================ SOUNDSCOUT DIV ================*/
 
 #soundscout-project {
 	background: url("../images/soundscout-background.jpg") no-repeat;
 	background-size: 100%;
+}
+
+#soundscout-background {
+	background: rgba(0, 0, 0, 0.43);
+	height: 100%;
+	padding: 10%;
+}
+
+#soundscout-logo {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
 }
 
 /* ================ VIEW PROJECT BUTTONS ================*/
@@ -115,7 +221,7 @@ body {
 	display: block;
 	background: transparent;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 5%;
 	border: solid;
 	border-width: 2px;
 	border-color: #ffffff;
@@ -135,51 +241,54 @@ body {
 /* Fly-in Text */
 @media screen and (max-width: 1355px) {
 	.fly-in-text {
-		transform: translateX(20%) translateY(-50%);
+		transform: translateX(18%) translateY(-50%);
 	}
 
-	.fly-in-text li {
-		font-size: 2.5em;
-		margin-right: 25px;
+	#dev-title {
+		transform: translateX(68%);
 	}
 }
 
 @media screen and (max-width: 1199px) {
 	.fly-in-text {
-		transform: translateX(16%) translateY(-50%);
-	}
-
-	.fly-in-text li {
-		font-size: 2em;
-		margin-right: 25px;
+		transform: translateX(5%) translateY(-50%);
 	}
 
 	#dev-title {
-		transform: translateX(37%);
+		transform: translateX(45%);
 	}
 }
 
 @media screen and (max-width: 1045px) {
+	.navbar-default .navbar-nav li a {
+		/*letter-spacing: 5px;*/
+		font-size: 85%;
+	}
+
 	.fly-in-text {
-		transform: translateX(35%) translateY(-50%);
+		transform: translateX(15%) translateY(-50%);
 	}
 
 	.fly-in-text li {
-		font-size: 1.5em;
-		margin-right: 20px;
+		font-size: 2.5em;
+		margin-right: 30px;
 	}
 
 	#dev-title {
 		top: 54%;
-		font-size: 1em;
+		font-size: 1.5em;
 		letter-spacing: 15px;
-		transform: translateX(90%);
+		transform: translateX(80%);
 	}
 }
 
 @media screen and (max-width: 991px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 5px;
+	}
+
 	.fly-in-text {
-		transform: translateX(10%) translateY(-50%);
+		transform: translateX(0%) translateY(-50%);
 	}
 
 	#dev-title {
@@ -190,17 +299,37 @@ body {
 
 @media screen and (max-width: 767px) {
 	.fly-in-text {
-		transform: translateX(-5%) translateY(-50%);
+		transform: translateX(15%) translateY(-50%);
+	}
+
+	.fly-in-text li {
+		margin-right: 20px;
+		font-size: 2em;
 	}
 
 	#dev-title {
-		transform: translateX(25%);
+		transform: translateX(50%);
 	}
+}
+
+@media screen and (max-width: 704px) {
+	.navbar-nav li {
+	    margin-right: 0;
+	}
+
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 5px;
+	}
+
+	#dev-title {
+		transform: translateX(45%);
+	}
+
 }
 
 @media screen and (max-width: 670px) {
 	.fly-in-text {
-		transform: translateX(10%) translateY(-50%);
+		transform: translateX(25%) translateY(-50%);
 	}
 
 	.fly-in-text li {
@@ -208,8 +337,9 @@ body {
 	}
 
 	#dev-title {
+		font-size: 1.3em;
 		letter-spacing: 10px;
-		transform: translateX(43%);
+		transform: translateX(60%);
 	}
 }
 
@@ -225,39 +355,57 @@ body {
 
 @media screen and (max-width: 559px) {
 	.fly-in-text {
-		transform: translateX(25%) translateY(-50%);
+		transform: translateX(23%) translateY(-50%);
 	}
 
 	.fly-in-text li {
-		font-size: 1em;
+		font-size: 1.5em;
 		margin-right: 10px;
 	}
 
 	#dev-title {
 		top: 53%;
-		font-size: .7em;
-		transform: translateX(65%);
+		font-size: 1em;
+		transform: translateX(57%);
 	}
 
+}
+
+@media screen and (max-width: 555px) {
+	.navbar-nav li {
+	    margin-right: 0%;
+	}
+
+	.navbar-nav li:nth-child(2) {
+		margin-right: 10px;
+	}
+
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		padding-right: 0px;
+	}
 }
 
 @media screen and (max-width: 500px) {
+	.navbar-nav li {
+	    margin-right: 0%;
+	}
+
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		padding-right: 0px;
+	}
+
+	#je-logo-li {
+		width: 11%;
+	}
+
 	.fly-in-text {
-		transform: translateX(20%) translateY(-50%);
+		transform: translateX(16%) translateY(-50%);
 	}
 
 	#dev-title {
-		transform: translateX(57%);
-	}
-}
-
-@media screen and (max-width: 499px) {
-	.fly-in-text {
-		transform: translateX(15%) translateY(-50%);
-	}
-
-	#dev-title {
-		transform: translateX(50%);
+		transform: translateX(46%);
 	}
 }
 
@@ -273,36 +421,64 @@ body {
 
 @media screen and (max-width: 455px) {
 	.fly-in-text {
-		transform: translateX(15%) translateY(-50%);
+		transform: translateX(17%) translateY(-50%);
 	}
 
 	.fly-in-text li {
-		font-size: 1em;
 		margin-right: 7px;
 	}
 
 	#dev-title {
 		letter-spacing: 5px;
-		transform: translateX(70%);
+		transform: translateX(65%);
+	}
+}
+
+@media screen and (max-width: 444px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 1px;
+	}
+
+	#je-logo-li {
+		width: 13%;
+	}
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+	.fly-in-text {
+		transform: translateX(10%) translateY(-50%);
+	}
+
+	#dev-title {
+		transform: translateX(55%);
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.fly-in-text {
-		transform: translateX(8%) translateY(-50%);
+		transform: translateX(15%) translateY(-50%);
 	}
 
 	.fly-in-text li {
-		font-size: 1em;
-		margin-right: 7px;
+		font-size: 1.3em;
+		/*margin-right: 7px;*/
 	}
 
 	#dev-title {
-		transform: translateX(60%);
+		transform: translateX(55%);
+		font-size: 1em;
 	}
 }
 
 @media screen and (max-width: 360px) {
+	.navbar-default .navbar-nav li a {
+		font-size: 60%;
+	}
+
+	#je-logo-li {
+		width: 13%;
+	}
+
 	.fly-in-text {
 		transform: translateX(5%) translateY(-50%);
 	}
@@ -313,23 +489,37 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+	.navbar-default .navbar-nav li a {
+		font-size: 50%;
+	}
+
 	.fly-in-text {
 		transform: translateX(5%) translateY(-50%);
 	}
 
 	.fly-in-text li {
-		font-size: .8em;
+		font-size: 1em;
 		margin-right: 7px;
 	}
 
 	#dev-title {
-		transform: translateX(40%);
+		font-size: .8em;
+		transform: translateX(45%);
 	}
 }
 
-/* AutroTrack Div */
+/* Projects Div */
 @media screen and (min-width: 750px) and (max-width: 900px) {
 	#autotrack-logo {
+		margin-top: 15%;
+	}
+
+	#codehive-logo {
+		margin-top: 15%;
+	}
+
+	#soundscout-logo {
+		width: 70%;
 		margin-top: 15%;
 	}
 }
@@ -338,10 +528,26 @@ body {
 	#autotrack-logo {
 		margin-top: 25%;
 	}
+
+	#codehive-logo {
+		margin-top: 25%;
+	}
+
+	#soundscout-logo {
+		margin-top: 25%;
+	}
 }
 
 @media screen and (min-width: 500px) and (max-width: 589px){
 	#autotrack-logo {
+		margin-top: 35%;
+	}
+
+	#codehive-logo {
+		margin-top: 35%;
+	}
+
+	#soundscout-logo {
 		margin-top: 35%;
 	}
 }
@@ -350,17 +556,44 @@ body {
 	#autotrack-logo {
 		margin-top: 45%;
 	}
+
+	#codehive-logo {
+		margin-top: 45%;
+	}
+
+	#soundscout-logo {
+		width: 80%;
+		margin-top: 45%;
+	}
 }
 
 @media screen and (max-width: 449px){
 	#autotrack-logo {
 		margin-top: 50%;
 	}
+
+	#codehive-logo {
+		margin-top: 50%;
+	}
+
+	#soundscout-logo {
+		width: 70%;
+		margin-top: 45%;
+	}
 }
 
 @media screen and (max-width: 400px){
 	#autotrack-logo {
 		margin-top: 60%;
+	}
+
+	#codehive-logo {
+		margin-top: 60%;
+	}
+
+	#soundscout-logo {
+		width: 80%;
+		margin-top: 70%;
 	}
 }
 
