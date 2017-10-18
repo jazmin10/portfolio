@@ -279,7 +279,7 @@ button.navbar-toggle {
 #contact-content button {
 	font-size: 1.2em;
 	margin-top: 25%;
-	margin-bottom: 25%;
+	margin-bottom: 20%;
 }
 
 /* ================ MEDIA QUERIES ================*/
@@ -555,7 +555,7 @@ button.navbar-toggle {
 }
 
 /* Projects Div */
-/*@media screen and (min-width: 750px) and (max-width: 900px) {
+@media screen and (min-width: 750px) and (max-width: 900px) {
 	#autotrack-logo {
 		margin-top: 15%;
 	}
@@ -644,4 +644,3 @@ button.navbar-toggle {
 }
 
 
-*/
