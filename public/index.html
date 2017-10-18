@@ -11,12 +11,12 @@
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
-	<script src="assets/js/logic.js" type="text/javascript"></script>
-
 	<!-- Bootstrap: Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<!-- Bootstrap: Latest compiled and minified JavaScript -->
+	<script src="assets/js/logic.js" type="text/javascript"></script>
+
+	<!-- Bootstrap: Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="assets/css/index.css" type="text/css">
@@ -34,27 +34,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <!-- <a class="navbar-brand" href="#">Brand</a> -->
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-        <li><a class="navbar-links" href="#">ABOUT</a></li>
-        <li><a href="#">PORTFOLIO</a></li>
-        <li id="je-logo-li"><img id="je-logo" src="./assets/images/je-logo.png"/></li>
-        <li><a href="#">SKILLS</a></li>
-        <li><a href="#">CONTACT</a></li> 
+        <li><a class="navbar-links" href="/about">ABOUT</a></li>
+        <li><a href="/portfolio">PORTFOLIO</a></li>
+        <li id="je-logo-li"><a href="/"><img id="je-logo" src="./assets/images/je-logo.png"/></a></li>
+        <li><a href="/skills">SKILLS</a></li>
+        <li><a href="/contact">CONTACT</a></li> 
       </ul>
-     
-  </div><!-- /.container-fluid -->
-</nav>
-
-
-
-
-
+  	</div><!-- /.container-fluid -->
+	</nav>
 
 	<div class="container full-page">
 		<ul class="fly-in-text no-show">
@@ -79,19 +72,33 @@
 	<div class="full-page" id="autotrack-project">
 		<div id="autotrack-border">
 			<img id="autotrack-logo" alt="AUTOTRACK" src="./assets/images/autotrack-logo.png"/>
-			<button class="btn view-btn">DETAILS</button>
+			<a href="/autotrack" class="view-project-link"><button class="btn view-btn">DETAILS</button></a>
 		</div>
 	</div>
 
 	<div class="full-page" id="codehive-project">
 		<img id="codehive-logo" alt="CODEHIVE" src="./assets/images/codehive-logo.png"/>
-		<button class="btn view-btn">DETAILS</button>
+		<a href="/codehive" class="view-project-link"><button class="btn view-btn">DETAILS</button></a>
 	</div>
 
 	<div class="full-page" id="soundscout-project">
 		<div id="soundscout-background">
 			<img id="soundscout-logo" alt="SOUNDSCOUT" src="./assets/images/soundscout-logo.png"/>
-			<button class="btn view-btn">DETAILS</button>
+			<a href="/details" class="view-project-link"><button class="btn view-btn">DETAILS</button></a>
+		</div>
+	</div>
+
+	<div class="full-page" class="contact-section">
+		<div id="contact-content">
+			<div>
+				<h4>CONNECT WITH ME</h4>
+				<p class="contact-first-line">Want to come by and say hello?</p>
+				<p class="contact-info">You can email me at:</p>
+				<p class="contact-info">
+					<a href="mailto:jazminestrada10@gmail.com">jazminestrada10@gmail.com</a>
+				</p>
+				<a href="/contact" class="view-project-link"><button class="btn view-btn">MORE</button></a>
+		</div>
 		</div>
 	</div>
 

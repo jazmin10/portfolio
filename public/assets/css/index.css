@@ -202,11 +202,11 @@ button.navbar-toggle {
 #soundscout-project {
 	background: url("../images/soundscout-background.jpg") no-repeat;
 	background-size: 100%;
+	overflow: auto;
 }
 
 #soundscout-background {
 	background: rgba(0, 0, 0, 0.43);
-	height: 100%;
 	padding: 10%;
 }
 
@@ -226,14 +226,60 @@ button.navbar-toggle {
 	border-width: 2px;
 	border-color: #ffffff;
 	color: #ffffff;
-	padding: 1%;
+	padding: 10px;
 	font-family: 'Lato', Open Sans, Arial;
 	letter-spacing: 5px;
+	padding-left: 15px;
 }
 
 .view-btn:hover {
 	background: #fff;
 	color: #000;
+}
+
+.view-project-link {
+	text-decoration: none;
+}
+
+.view-project-link:hover {
+	text-decoration: none;
+}
+/* ================ CONTACT SECTION ================*/
+#contact-content {
+	padding-top: 5%;
+	text-align: center;
+	font-family: 'Lato', Open Sans, Arial;
+	margin: 0 auto;
+	display: table;
+	color: #ffffff;
+}
+
+#contact-content div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#contact-content h4 {
+	letter-spacing: 15px;
+	font-size: 2em;
+}
+
+#contact-content .contact-first-line {
+	margin-top: 35%;
+	margin-bottom: 20%;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+}
+
+.contact-info {
+	font-size: 1.5em;
+	letter-spacing: 2px;
+}
+
+#contact-content button {
+	font-size: 1.2em;
+	margin-top: 25%;
+	margin-bottom: 25%;
 }
 
 /* ================ MEDIA QUERIES ================*/
@@ -509,7 +555,7 @@ button.navbar-toggle {
 }
 
 /* Projects Div */
-@media screen and (min-width: 750px) and (max-width: 900px) {
+/*@media screen and (min-width: 750px) and (max-width: 900px) {
 	#autotrack-logo {
 		margin-top: 15%;
 	}
@@ -598,3 +644,4 @@ button.navbar-toggle {
 }
 
 
+*/
