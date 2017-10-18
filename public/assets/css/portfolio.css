@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: white;
+	background-color: #000000;
 }
 
 /* ================ NAVBAR ================*/
@@ -76,9 +76,90 @@ button.navbar-toggle {
 	width: 100%;
 }
 
+/* ================ PROJECTS DIV ================*/
+
+.project {
+	border-radius: 10px;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.details {
+	margin-bottom: 3%;
+}
+
+.grow:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.view-btn {
+	background: transparent;
+	color: #ffffff;
+	border: solid;
+	border-color: #ffffff;
+	font-family: 'Lato', Open Sans, Arial;
+	letter-spacing: 5px;
+	font-weight: bolder;
+	padding-left: 20px;
+}
+
+.view-btn:hover {
+	background: white;
+}
+
+/* ================ AUTOTRACK DIV ================*/
 #autotrack-project {
 	margin-top: 15%;
+	border: solid;
+	border-color: #00bfff;
+	box-shadow: 0px 0px 15px #00ffff;
+	/*height: 200px;*/
 }
+
+#autotrack-logo {
+	width: 50%;
+}
+
+/* ================ CODEHIVE DIV ================*/
+#codehive-project {
+	border: solid;
+	border-color: #000000;
+	background: url("../images/hive-background.svg") no-repeat;
+	background-size: 100%;
+}
+
+#codehive-project .logo {
+	/*margin-top: 2%;*/
+	margin-bottom: 3%;
+}
+
+#codehive-logo {
+	margin-top: 1%;
+	background: #000000;
+	width: 40%;
+}
+
+/* ================ SOUNDSCOUT DIV ================*/
+#soundscout-project {
+	border: solid;
+	border-color: #000000;
+	background: url("../images/soundscout-background-proj.jpg") no-repeat;
+	background-size: 100%;
+	padding: 0;
+}
+
+#gray-background {
+	height: -webkit-fill-available;
+	background: rgba(0, 0, 0, 0.43);
+}
+
+#soundscout-logo {
+	width: 50%;
+}
+
 
 /* ================ MEDIA QUERIES ================*/
 
@@ -161,3 +242,4 @@ button.navbar-toggle {
 		font-size: 50%;
 	}
 }
+
