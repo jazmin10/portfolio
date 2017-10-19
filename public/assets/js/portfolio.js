@@ -3,7 +3,7 @@ $(document).ready(function(){
 	// Checks the coordinates of the navbar
 	function collapseNavbar() {
 		// If the coordinates is greater than 100, the navbar collapses into mobile display
-    if ($(".navbar").offset().top > 100) {
+    if ($(".navbar").offset().top > 80) {
         $(".navbar-header").css("float", "none");
         $(".navbar-toggle").css("display", "block");
         $(".navbar-nav").css("float", "none!important");

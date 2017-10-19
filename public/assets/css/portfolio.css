@@ -217,7 +217,7 @@ button.navbar-toggle {
 	font-family: 'Permanent Marker', cursive;
 	color: #ffffff;
 	text-shadow: 3px 3px #a94442;
-	font-size: 4em;
+	font-size: 5em;
 	margin-bottom: 3%;
 }
 
@@ -303,4 +303,81 @@ button.navbar-toggle {
 		font-size: 50%;
 	}
 }
+
+/* Project Divs */
+@media screen and (max-width: 991px){
+	.project {
+		height: 180px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.project {
+		height: 140px;
+	}
+
+	#webscraper-logo {
+		font-size: 3em;
+	}
+
+	#bamazon-logo {
+		font-size: 3em;
+	}
+
+	#hangman-logo {
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#autotrack-logo {
+		width: 80%;
+	}
+
+	#codehive-logo {
+		width: 60%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	#soundscout-logo {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 440px){
+	#autotrack-logo {
+		margin-bottom: 3%;
+	}
+
+	#codehive-logo {
+		margin-bottom: 3%;
+	}
+}
+
+
+/* Grow Effect on Project Divs */
+@media screen and (max-width: 1270px){
+	.grow:hover {
+	    -webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	    transform: scale(1.05);
+	}
+}
+
+@media screen and (max-width: 768px){
+	.grow:hover {
+	    -webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	    transform: scale(1.03);
+	}
+}
+
+
+
+
+
+
+
+
 

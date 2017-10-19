@@ -29,6 +29,18 @@ module.exports = function(app){
 		soundscoutRes.sendFile(path.join(__dirname, "../public/soundscout.html"));
 	});
 
+	app.get("/soccer-webscraper", function(autotrackReq, autotrackRes){
+		autotrackRes.sendFile(path.join(__dirname, "../public/webscraper.html"));
+	});
+
+	app.get("/bamazon", function(codehiveReq, codehiveRes){
+		codehiveRes.sendFile(path.join(__dirname, "../public/bamazon.html"));
+	});
+
+	app.get("/hangman", function(soundscoutReq, soundscoutRes){
+		soundscoutRes.sendFile(path.join(__dirname, "../public/hangman.html"));
+	});
+
 	app.use("/", function(homeReq, homeRes){
 		homeRes.sendFile(path.join(__dirname, "../public/index.html"));
 	});
