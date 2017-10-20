@@ -79,3 +79,49 @@ button.navbar-toggle {
 #je-logo {
 	width: 100%;
 }
+
+/* ================ SKILL DIVS ================*/
+.skill {
+	text-align: center;
+	font-family: 'Lato', Open Sans, Arial;
+	letter-spacing: 4px;
+	margin-bottom: 4%;
+	color: #bd9753;
+	/*color: #ffffff;*/
+}
+
+.skill:hover {
+	/*background: white;*/
+	/*color: #bd9753;*/
+	/*background: #bd9753;*/
+	color: #ffffff;
+}
+
+.skill .icons {
+	width: 30%;
+}
+
+.skill h3 {
+	font-size: 1.4em;
+}
+
+.grow:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#row-1 {
+	display: none;
+}
+
+#row-2 {
+	display: none;
+}
+
+#row-3 {
+	display: none;
+}
+
+
