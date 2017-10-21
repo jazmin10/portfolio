@@ -11,13 +11,15 @@ body {
 
 .container.wrap {
 	margin-top: 12%;
-	/*display: none;*/
 }
 
 /* ================ NAVBAR ================*/
 .navbar {
 	background: transparent;
 	border-color: transparent;
+
+
+	display: none;
 }
 
 /* Centering Navbar Content */
@@ -90,7 +92,7 @@ button.navbar-toggle {
 	border-bottom-color: #bd9753;
 }
 
-.navbar.fade-space {
+.navbar.fade-space{
 	margin-top: 3%;
 }
 
@@ -137,5 +139,88 @@ button.navbar-toggle {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+
+/* ================ MEDIA QUERIES ================*/
+
+/* Navbar */
+@media screen and (max-width: 1045px) {
+	.navbar-default .navbar-nav li a {
+		/*letter-spacing: 5px;*/
+		font-size: 85%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 5px;
+	}
+}
+
+@media screen and (max-width: 704px) {
+	.navbar-nav li {
+	    margin-right: 0;
+	}
+
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 5px;
+	}
+}
+
+@media screen and (max-width: 555px) {
+	.navbar-nav li {
+	    margin-right: 0%;
+	}
+
+	.navbar-nav li:nth-child(2) {
+		margin-right: 10px;
+	}
+
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		padding-right: 0px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.navbar-nav li {
+	    margin-right: 0%;
+	}
+
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		padding-right: 0px;
+	}
+
+	#je-logo-li {
+		width: 11%;
+	}
+}
+
+@media screen and (max-width: 444px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 1px;
+	}
+
+	#je-logo-li {
+		width: 13%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.navbar-default .navbar-nav li a {
+		font-size: 60%;
+	}
+
+	#je-logo-li {
+		width: 13%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.navbar-default .navbar-nav li a {
+		font-size: 50%;
+	}
 }
 

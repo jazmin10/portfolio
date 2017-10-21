@@ -38,8 +38,8 @@ $(document).ready(function(){
 	});
 
 	function logoFadeIn(){
-		$("#je-logo").fadeIn(3000);
 		$(".navbar").removeClass("fade-space");
+		$("#je-logo").fadeIn(3000);
 
 	}
 
@@ -55,11 +55,27 @@ $(document).ready(function(){
 		$("#row-3").fadeIn(4000);
 	}
 
-	logoFadeIn();
-	setTimeout(firstFadeIn, 1500);
-	setTimeout(secondFadeIn, 2500);
-	setTimeout(thirdFadeIn, 3500);
-	$(window).scroll(collapseNavbar);
+	function navbarFadeIn(){
+		$(".navbar").fadeIn(3000);
+		$("#je-logo").css("display", "none");
+		$(".navbar").addClass("fade-space");
 
-	
+	}
+
+	function contentFadeIn(){
+		$("#row-1").fadeIn(4000);
+		$("#row-2").fadeIn(4000);
+		$("#row-3").fadeIn(4000);
+	}
+
+	navbarFadeIn();
+	setTimeout(logoFadeIn, 1500);
+	setTimeout(contentFadeIn, 3000);
+	// setTimeout(firstFadeIn, 2500);
+	// setTimeout(secondFadeIn, 3500);
+	// setTimeout(thirdFadeIn, 4500);
+
+	$(window).scroll(collapseNavbar);
 });
+
+
