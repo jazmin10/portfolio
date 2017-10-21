@@ -11,6 +11,7 @@ body {
 
 .container.wrap {
 	margin-top: 12%;
+	display: none;
 }
 
 /* ================ NAVBAR ================*/
@@ -94,19 +95,6 @@ button.navbar-toggle {
 
 .navbar.fade-space{
 	margin-top: 3%;
-}
-
-/* ================ CONTENT ================*/
-#row-1 {
-	display: none;
-}
-
-#row-2 {
-	display: none;
-}
-
-#row-3 {
-	display: none;
 }
 
 /* ================ SKILL DIVS ================*/

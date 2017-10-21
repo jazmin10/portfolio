@@ -43,18 +43,6 @@ $(document).ready(function(){
 
 	}
 
-	function firstFadeIn(){
-		$("#row-1").fadeIn(4000);
-	}
-
-	function secondFadeIn(){
-		$("#row-2").fadeIn(4000);
-	}
-
-	function thirdFadeIn(){
-		$("#row-3").fadeIn(4000);
-	}
-
 	function navbarFadeIn(){
 		$(".navbar").fadeIn(3000);
 		$("#je-logo").css("display", "none");
@@ -63,19 +51,13 @@ $(document).ready(function(){
 	}
 
 	function contentFadeIn(){
-		$("#row-1").fadeIn(4000);
-		$("#row-2").fadeIn(4000);
-		$("#row-3").fadeIn(4000);
+		$(".container.wrap").fadeIn(4000);
 	}
 
+	$(window).scroll(collapseNavbar);
 	navbarFadeIn();
 	setTimeout(logoFadeIn, 1500);
 	setTimeout(contentFadeIn, 3000);
-	// setTimeout(firstFadeIn, 2500);
-	// setTimeout(secondFadeIn, 3500);
-	// setTimeout(thirdFadeIn, 4500);
-
-	$(window).scroll(collapseNavbar);
 });
 
 
