@@ -37,27 +37,29 @@ $(document).ready(function(){
 		}
 	});
 
-	function fadeIn(){
-		console.log("hello hello");
-		// $("#row-1").fadeIn(3000);
-		// $("#row-2").fadeIn(4000);
-		// $("#row-3").fadeIn(5000);
-		// $(".row-2.skill-1").fadeIn(5000);
-		// $(".row-2.skill-2").fadeIn(5000);
-		// $(".row-2.skill-3").fadeIn(5000);
-
+	function logoFadeIn(){
 		$("#je-logo").fadeIn(3000);
+		$(".navbar").removeClass("fade-space");
 
+	}
+
+	function firstFadeIn(){
+		$("#row-1").fadeIn(4000);
 	}
 
 	function secondFadeIn(){
-		console.log("hello");
-		$("#row-2").fadeIn(3000);
+		$("#row-2").fadeIn(4000);
 	}
 
-	setTimeout(fadeIn, 2000);
-	// setTimeout(secondFadeIn, 4000);
-	// setTimeout(fadeIn(3), 8000);
+	function thirdFadeIn(){
+		$("#row-3").fadeIn(4000);
+	}
+
+	logoFadeIn();
+	setTimeout(firstFadeIn, 1500);
+	setTimeout(secondFadeIn, 2500);
+	setTimeout(thirdFadeIn, 3500);
 	$(window).scroll(collapseNavbar);
+
 	
 });

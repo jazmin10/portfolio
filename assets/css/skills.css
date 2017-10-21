@@ -11,6 +11,7 @@ body {
 
 .container.wrap {
 	margin-top: 12%;
+	/*display: none;*/
 }
 
 /* ================ NAVBAR ================*/
@@ -78,6 +79,32 @@ button.navbar-toggle {
 
 #je-logo {
 	width: 100%;
+	display: none;
+}
+
+#active-tab {
+	color: #ffffff;
+	background: transparent;
+	border: solid;
+	border-color: transparent;
+	border-bottom-color: #bd9753;
+}
+
+.navbar.fade-space {
+	margin-top: 3%;
+}
+
+/* ================ CONTENT ================*/
+#row-1 {
+	display: none;
+}
+
+#row-2 {
+	display: none;
+}
+
+#row-3 {
+	display: none;
 }
 
 /* ================ SKILL DIVS ================*/
@@ -111,17 +138,4 @@ button.navbar-toggle {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-
-#row-1 {
-	display: none;
-}
-
-#row-2 {
-	display: none;
-}
-
-#row-3 {
-	display: none;
-}
-
 
