@@ -11,12 +11,14 @@ body {
 
 .container.wrap {
 	margin-top: 12%;
+	display: none;
 }
 
 /* ================ NAVBAR ================*/
 .navbar {
 	background: transparent;
 	border-color: transparent;
+	display: none;
 }
 
 /* Centering Navbar Content */
@@ -38,6 +40,7 @@ ul.nav.navbar-nav {
 	font-family: 'Lato', Open Sans, Arial;
 	/*font-size: 130%;*/
 	letter-spacing: 10px;
+	padding-left: 25px;
 }
 
 .navbar-nav li:last-child {
@@ -78,6 +81,15 @@ button.navbar-toggle {
 
 #je-logo {
 	width: 100%;
+	visibility: hidden;
+}
+
+#active-tab {
+	color: #ffffff;
+	background: transparent;
+	border: solid;
+	border-color: transparent;
+	border-bottom-color: #bd9753;
 }
 
 /* ================ PROJECTS DIV ================*/

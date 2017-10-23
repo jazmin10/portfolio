@@ -271,11 +271,14 @@ button.navbar-toggle {
 	margin-bottom: 20%;
 	font-size: 1.5em;
 	letter-spacing: 2px;
+
+	font-family: 'Raleway', sans-serif;
 }
 
 .contact-info {
 	font-size: 1.5em;
 	letter-spacing: 2px;
+	font-family: 'Raleway', sans-serif;
 }
 
 #contact-content button {

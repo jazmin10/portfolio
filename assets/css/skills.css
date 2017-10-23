@@ -42,6 +42,7 @@ ul.nav.navbar-nav {
 	font-family: 'Lato', Open Sans, Arial;
 	/*font-size: 130%;*/
 	letter-spacing: 10px;
+	padding-left: 25px;
 }
 
 .navbar-nav li:last-child {
@@ -92,10 +93,6 @@ button.navbar-toggle {
 	border: solid;
 	border-color: transparent;
 	border-bottom-color: #bd9753;
-}
-
-.navbar.fade-space{
-	margin-top: 3%;
 }
 
 /* ================ SKILL DIVS ================*/
