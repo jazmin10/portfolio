@@ -82,7 +82,8 @@ button.navbar-toggle {
 
 #je-logo {
 	width: 100%;
-	display: none;
+	/*display: none;*/
+	visibility: hidden;
 }
 
 #active-tab {
@@ -135,7 +136,6 @@ button.navbar-toggle {
 /* Navbar */
 @media screen and (max-width: 1045px) {
 	.navbar-default .navbar-nav li a {
-		/*letter-spacing: 5px;*/
 		font-size: 85%;
 	}
 }
@@ -211,4 +211,3 @@ button.navbar-toggle {
 		font-size: 50%;
 	}
 }
-

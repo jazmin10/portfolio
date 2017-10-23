@@ -37,23 +37,22 @@ $(document).ready(function(){
 		}
 	});
 
-	function logoFadeIn(){
-		$(".navbar").removeClass("fade-space");
-		$("#je-logo").fadeIn(3000);
-
-	}
-
+	// Fades in navbar
 	function navbarFadeIn(){
 		$(".navbar").fadeIn(3000);
-		$("#je-logo").css("display", "none");
-		$(".navbar").addClass("fade-space");
-
 	}
 
+	// Fades in page content
 	function contentFadeIn(){
 		$(".container.wrap").fadeIn(4000);
 	}
 
+	// Fades in "JE" logo in navbar
+	function logoFadeIn(){
+		$('#je-logo').css('visibility','visible').hide().fadeIn(3000);
+	}
+
+	// Main Processes
 	$(window).scroll(collapseNavbar);
 	navbarFadeIn();
 	setTimeout(logoFadeIn, 1500);
