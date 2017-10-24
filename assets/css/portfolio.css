@@ -36,7 +36,7 @@ ul.nav.navbar-nav {
 }
 
 .navbar-default .navbar-nav li a {
-	color: white;
+	color: #bd9753;
 	font-family: 'Lato', Open Sans, Arial;
 	/*font-size: 130%;*/
 	letter-spacing: 10px;
@@ -116,15 +116,17 @@ button.navbar-toggle {
 	background: transparent;
 	color: #ffffff;
 	border: solid;
-	border-color: #ffffff;
+	border-color: #bd9753;
 	font-family: 'Lato', Open Sans, Arial;
 	letter-spacing: 5px;
 	font-weight: bolder;
-	padding-left: 20px;
+	border-width: 3px;
+	padding-left: 17px;
 }
 
 .view-btn:hover {
-	background: white;
+	background: #bd9753;
+	color: #ffffff;
 }
 
 /* ================ AUTOTRACK DIV ================*/

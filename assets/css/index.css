@@ -36,9 +36,8 @@ ul.nav.navbar-nav {
 }
 
 .navbar-default .navbar-nav li a {
-	color: white;
+	color: #bd9753;
 	font-family: 'Lato', Open Sans, Arial;
-	/*font-size: 130%;*/
 	letter-spacing: 10px;
 }
 
@@ -87,7 +86,6 @@ button.navbar-toggle {
 .fly-in-text {
 	color: #ffffff;
 	list-style-type: none;
-	/*left: 30%;*/
 	top: 50%;
 	position: absolute;
 	transform: translateX(19%) translateY(-50%);
@@ -129,7 +127,7 @@ button.navbar-toggle {
 
 /* ================ WEB DEVELOPER SUBTITLE ================*/
 #dev-title {
-	color: #ffffff;
+	color: #bd9753;
 	font-family: 'Lato', Open Sans, Arial;
 	position: absolute;
 	top: 55%;
@@ -157,13 +155,11 @@ button.navbar-toggle {
 }
 
 #autotrack-logo {
-	/*align-content: center;*/
 	font-family: 'Geo', sans-serif;
 	font-size: 500%;
 	text-align: center;
 	color: #00bfff;
 	text-shadow: 0px 0px 35px #00ffff;
-
 	display: block;
 	margin: 0 auto;
 	margin-top: 10%;
@@ -180,7 +176,7 @@ button.navbar-toggle {
 }
 
 #codehive-logo {
-	color: #fff;
+	color: #ffffff;
 	font-size: 400%;
 	text-align: center;
 	font-family: arial;
@@ -225,8 +221,8 @@ button.navbar-toggle {
 	margin: 0 auto;
 	margin-top: 5%;
 	border: solid;
-	border-width: 2px;
-	border-color: #ffffff;
+	border-width: 3px;
+	border-color: #bd9753;
 	color: #ffffff;
 	padding: 10px;
 	font-family: 'Lato', Open Sans, Arial;
@@ -235,8 +231,8 @@ button.navbar-toggle {
 }
 
 .view-btn:hover {
-	background: #fff;
-	color: #000;
+	background: #bd9753;
+	color: #ffffff;
 }
 
 .view-project-link {
