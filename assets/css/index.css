@@ -245,14 +245,18 @@ button.navbar-toggle {
 
 #main-scroll {
 	display: none;
-}
-
-img.scroll {
 	position: absolute;
 	bottom: 3%;
 	width: 2.5%;
 	left: 50%;
 }
+
+/*img.scroll {
+	position: absolute;
+	bottom: 3%;
+	width: 2.5%;
+	left: 50%;
+}*/
 
 
 /* ================ CONTACT SECTION ================*/
@@ -264,6 +268,8 @@ img.scroll {
 	border: solid;
 	border-color: #bd9753;
 	text-align: center;
+	height: auto;
+	width: 100%;
 }
 
 #contact-title {
@@ -673,11 +679,7 @@ img.scroll {
 }
 
 /* Contact Section */
-@media screen and (max-width: 1199px){
-	#contact-section {
-		padding-top: 7%;
-	}
-
+@media screen and (max-width: 1158px){
 	#contact-title h4 {
 		font-size: 1.7em;
 	}
@@ -688,11 +690,7 @@ img.scroll {
 
 }
 
-@media screen and (max-width: 991px){
-	#contact-section {
-		padding-top: 8%;
-	}
-
+@media screen and (max-width: 1070px){
 	#contact-title {
 		width: 60%;
 		margin-bottom: 15%;
@@ -708,9 +706,9 @@ img.scroll {
 	}
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 784px){
 	#contact-section {
-		padding-top: 15%;
+		padding-top: 10%;
 	}
 
 	#contact-title {
@@ -733,7 +731,7 @@ img.scroll {
 
 @media screen and (max-width: 657px){
 	#contact-section {
-		padding-top: 17%;
+		padding-top: 20%;
 	}
 
 	#contact-title {
@@ -743,7 +741,7 @@ img.scroll {
 
 @media screen and (max-width: 580px){
 	#contact-title {
-		margin-bottom: 20%;
+		margin-bottom: 15%;
 	}
 
 	#contact-title h4 {
@@ -761,10 +759,6 @@ img.scroll {
 }
 
 @media screen and (max-width: 501px){
-	#contact-section {
-		padding-top: 30%;
-	}
-
 	#contact-title h4 {
 		font-size: 1.3em;
 		letter-spacing: 8px;
@@ -781,6 +775,7 @@ img.scroll {
 
 @media screen and (max-width: 465px){
 	#contact-title h4 {
+		font-size: 1.2em;
 		letter-spacing: 5px;
 	}
 }
@@ -815,3 +810,24 @@ img.scroll {
 		font-size: .8em;
 	}
 }
+
+/* Scroll Arrow */
+@media screen and (max-width: 900px){
+	#main-scroll {
+		width: 3%;
+	}
+}
+
+@media screen and (max-width: 770px){
+	#main-scroll {
+		width: 4%;
+	}
+}
+
+@media screen and (max-width: 550px){
+	#main-scroll {
+		width: 5%;
+	}
+}
+
+
