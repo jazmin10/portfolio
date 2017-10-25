@@ -48,8 +48,32 @@ $(document).ready(function(){
 		}
 	});
 
+	// Fades in scroll arrow after navbar, flyin text, and name fades in
+	function scrollFadeIn(){
+		$("#main-scroll").fadeIn(3000);
+	}
+
+	// Creates bounces effect for scroll arrow (called every half second)
+	function bounce(){
+		// If bounceValue is false, move image up
+		if (bounceValue === false){
+			$("#main-scroll").css("bottom", "3.3%");
+			bounceValue = true;
+		}
+		// Otherwise, move image down to its original place
+		else {
+			$("#main-scroll").css("bottom", "3%");
+			bounceValue	= false;
+		}
+	}
+
+	// Initial value for scroll arrow
+	var bounceValue = false;
+
 	setTimeout(intro, 500);
 	setTimeout(fadeIn, 3000);
+	setTimeout(scrollFadeIn, 9000);
+	setInterval(bounce, 500);
 	$(window).scroll(collapseNavbar);
 	
 });
