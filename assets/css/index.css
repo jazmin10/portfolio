@@ -243,44 +243,59 @@ button.navbar-toggle {
 	text-decoration: none;
 }
 /* ================ CONTACT SECTION ================*/
-#contact-content {
-	padding-top: 5%;
+#contact-section {
+	padding: 5%;
+}
+
+#contact-section .container {
+	border: solid;
+	border-color: #bd9753;
 	text-align: center;
-	font-family: 'Lato', Open Sans, Arial;
+}
+
+#contact-title {
+	width: 50%;
 	margin: 0 auto;
-	display: table;
-	color: #ffffff;
+	margin-bottom: 10%;
+	margin-top: 3%;
 }
 
-#contact-content div {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-#contact-content h4 {
-	letter-spacing: 15px;
+#contact-title h4 {
 	font-size: 2em;
+	font-family: 'Lato', Open Sans, Arial;
+	letter-spacing: 15px;
+	color: #ffffff;
+	border-bottom: solid;
+	border-color: #bd9753;
+	padding: 5% 0 2% 15px;
 }
 
-#contact-content .contact-first-line {
-	margin-top: 35%;
-	margin-bottom: 20%;
+.col-md-12.content {
+	letter-spacing: 5px;
+	font-family: 'Lato', Open Sans, Arial;
+	color: #ffffff;
 	font-size: 1.5em;
-	letter-spacing: 2px;
-
-	font-family: 'Raleway', sans-serif;
 }
 
-.contact-info {
-	font-size: 1.5em;
-	letter-spacing: 2px;
-	font-family: 'Raleway', sans-serif;
+.col-md-12.hello {
+	margin-bottom: 2%;
 }
 
-#contact-content button {
-	font-size: 1.2em;
-	margin-top: 25%;
-	margin-bottom: 20%;
+.col-md-12.info {
+	margin-bottom: 5%;
+	letter-spacing: 3px;
+}
+
+.col-md-12.info a {
+	color: #bd9753;
+}
+
+.col-md-12.info a:hover {
+	color: #997a43;
+}
+
+.col-md-12.button {
+	margin-bottom: 7%;
 }
 
 /* ================ MEDIA QUERIES ================*/
@@ -644,4 +659,146 @@ button.navbar-toggle {
 	}
 }
 
+/* Contact Section */
+@media screen and (max-width: 1199px){
+	#contact-section {
+		padding-top: 7%;
+	}
 
+	#contact-title h4 {
+		font-size: 1.7em;
+	}
+
+	.col-md-12.info {
+		margin-bottom: 8%;
+	}
+
+}
+
+@media screen and (max-width: 991px){
+	#contact-section {
+		padding-top: 8%;
+	}
+
+	#contact-title {
+		width: 60%;
+		margin-bottom: 15%;
+	}
+
+	#contact-title h4 {
+		font-size: 1.8em;
+		letter-spacing: 10px;
+	}
+
+	.col-md-12.info {
+		margin-bottom: 20%;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#contact-section {
+		padding-top: 15%;
+	}
+
+	#contact-title {
+		width: 70%;
+		margin-bottom: 17%;
+	}
+
+	#contact-title h4 {
+		font-size: 1.7em;
+	}
+
+	.col-md-12.hello {
+		margin-bottom: 3%;
+	}
+
+	.col-md-12.info {
+		margin-bottom: 20%;
+	}
+}
+
+@media screen and (max-width: 657px){
+	#contact-section {
+		padding-top: 17%;
+	}
+
+	#contact-title {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 580px){
+	#contact-title {
+		margin-bottom: 20%;
+	}
+
+	#contact-title h4 {
+		font-size: 1.5em;
+		letter-spacing: 8px;
+	}
+
+	.col-md-12.content {
+		font-size: 1.3em;
+	}
+
+	.col-md-12.info {
+		margin-bottom: 25%;
+	}
+}
+
+@media screen and (max-width: 501px){
+	#contact-section {
+		padding-top: 30%;
+	}
+
+	#contact-title h4 {
+		font-size: 1.3em;
+		letter-spacing: 8px;
+	}
+
+	.col-md-12.content {
+		font-size: 1.1em;
+	}
+
+	.col-md-12.info {
+		margin-bottom: 25%;
+	}
+}
+
+@media screen and (max-width: 465px){
+	#contact-title h4 {
+		letter-spacing: 5px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#contact-title {
+		width: 90%;
+		margin-bottom: 30%;
+	}
+
+	.col-md-12.info {
+		margin-bottom: 30%;
+	}
+}
+
+@media screen and (max-width: 360px){
+	#contact-title h4 {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#contact-title h4 {
+		letter-spacing: 3px;
+	}
+
+	.col-md-12.content {
+		font-size: 1em;
+	}
+
+	.col-md-12.info a {
+		font-size: .8em;
+	}
+}
