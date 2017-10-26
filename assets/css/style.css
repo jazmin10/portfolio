@@ -98,6 +98,10 @@ button.navbar-toggle {
 		/*letter-spacing: 5px;*/
 		font-size: 85%;
 	}
+
+	#je-logo-li {
+		width: 12%;
+	}
 }
 
 @media screen and (max-width: 991px) {
@@ -106,13 +110,76 @@ button.navbar-toggle {
 	}
 }
 
+@media screen and (max-width: 950px) {
+	#je-logo-li {
+		width: 13%;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	#je-logo-li {
+		width: 14%;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	#je-logo-li {
+		width: 15%;
+	}
+}
+
+@media screen and (max-width: 785px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		font-size: 85%;
+	}
+}
+
+@media screen and (max-width: 732px){
+	.navbar-nav li {
+		margin-right: 4%;
+	}
+} 
+
 @media screen and (max-width: 704px) {
 	.navbar-nav li {
-	    margin-right: 0;
+	    margin-right: 1%;
 	}
 
 	.navbar-default .navbar-nav li a {
 		letter-spacing: 5px;
+	}
+
+	#je-logo-li {
+		width: 17%;
+	}
+}
+
+@media screen and (max-width: 676px) {
+	.navbar-nav li {
+	    margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.navbar-default .navbar-nav li a {
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 631px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+	}
+}
+
+@media screen and (max-width: 566px) {
+	.navbar-default .navbar-nav li a {
+		font-size: 65%;
+	}
+
+	#je-logo-li {
+		width: 20%;
 	}
 }
 
@@ -132,42 +199,83 @@ button.navbar-toggle {
 }
 
 @media screen and (max-width: 500px) {
-	.navbar-nav li {
-	    margin-right: 0%;
-	}
-
 	.navbar-default .navbar-nav li a {
 		letter-spacing: 3px;
 		padding-right: 0px;
 	}
+}
+
+@media screen and (max-width: 479px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		font-size: 55%;
+	}
 
 	#je-logo-li {
-		width: 11%;
+		width: 15%;
 	}
 }
 
 @media screen and (max-width: 444px) {
-	.navbar-default .navbar-nav li a {
-		letter-spacing: 1px;
-	}
-
 	#je-logo-li {
-		width: 13%;
+		width: 16%;
 	}
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 430px) {
+	.navbar-nav {
+		margin: 0;
+	}
+	
+	#je-logo-li {
+		margin-right: 1%;
+	}
+
+	.navbar-default .navbar-nav li a:first-child {
+		padding-left: 15px;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+	.navbar-nav {
+		margin: 0;
+	}
+
+	.navbar-default .navbar-nav li a:first-child {
+		padding-left: 18px;
+	}
+
 	.navbar-default .navbar-nav li a {
-		font-size: 60%;
+		font-size: 50%;
 	}
 
 	#je-logo-li {
-		width: 13%;
+		width: 12%;
+	}
+
+	#je-logo-li a {
+		padding: 0;
+	}
+}
+
+
+@media screen and (max-width: 360px) {
+	.navbar-nav {
+		margin: 0;
+	}
+
+	.navbar-default .navbar-nav li a:first-child {
+		padding-left: 10px;
 	}
 }
 
 @media screen and (max-width: 320px) {
-	.navbar-default .navbar-nav li a {
-		font-size: 50%;
+	.navbar-nav {
+		margin: 0;
+	}
+
+	.navbar-default .navbar-nav li a:first-child {
+		padding-left: 5px;
 	}
 }
