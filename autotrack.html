@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lato|Geo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Arapey|Roboto" rel="stylesheet">
 
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
@@ -21,6 +21,7 @@
 
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
+  <link rel="stylesheet" href="assets/css/about.css" type="text/css">
 </head>
 
 <body>
@@ -48,6 +49,39 @@
       </ul>
   	</div><!-- /.container-fluid -->
 	</nav>
+
+  <div class="content">
+    <div class="full-page">
+      <div id="autotrack-project" class="container project-overview">
+        <div class="project-title">
+          <h1>AUTOTRACK</h1>
+        </div>
+        <p class="overview">Autotrack is a MERN-application that allows car dealership's inventory managers to streamline the vehicles' reconditioning process before sale. With Autotrack, users can create a profile for each car that contains checklists to measure the progress of the car. Additionally, each car's profile provides a QR Code which users can scan to access a car's profile from anywhere in the car lot.</p>
+      </div>
+      <img class="scroll-arrow" src="./assets/images/scroll.png"/>
+    </div>
+
+    <div class="row container">
+      <div class="col-md-9">
+        <h4>CONCEPT</h4>
+        <p>Autotrack derived from one of my teammate's past experience working in a car dealership. As the inventory manager, he was responsible of preparing acquired cars in auctions for sale, also known as the reconditioning process. This included cosmetics, maintenance, photo session, and everything in-between.</p>
+        <p>The goal was to turn around a completely reconditioned vehicle in 5 days. The time challenges during the reconditioning process were compoundeded by the lack of a tracking tool, as well as immediate access to the car's progress regardless of the car's location. As a result of internal and external partners inability to quickly assess a vehicle 
+        's needs, the average reconditioning process took 8-9 days. In order to tackle these challenges, we created Autotrack. For details in how Autotrack works, please view Autotrack's GitHub repository.</p>
+        <h4>CONTRIBUTION</h4>
+        <ul>
+          <li>Spearheaded week-long architecture and planning process</li>
+          <li>Completed Main Tasks React component, displays the overall progress of a car</li>
+          <li>Integrated user authentication using JSON Web Tokens</li>
+          <li>Completed Information React component, displays the basics specs of a car</li>
+          <li>Co-created the Profile React component, this component updates progress bars when a task is completed, added, or deleted.</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        this is another description
+      </div>
+    </div>
+  </div>
 
 	
 </body>

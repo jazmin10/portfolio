@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
 	// Removes opacity from fly in text
