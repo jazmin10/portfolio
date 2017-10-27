@@ -25,14 +25,14 @@
 	padding-top: 10%;
 	border-bottom: solid;
 	border-bottom-color: #bd9753;
-	letter-spacing: 15px;
 	width: 50%;
 	margin: 0 auto;
 	font-family: 'Lato', Open Sans, Arial;
 	margin-bottom: 5%;
 }
 
-.project-title h1 {
+#autotrack-project .project-title h1 {
+	letter-spacing: 15px;
 	padding-left: 15px;
 	font-size: 5em;
 }
@@ -64,3 +64,125 @@
 		width: 5%;
 	}
 }
+
+/* Autotrack Overview Content */
+@media screen and (max-width: 1199px){
+	#autotrack-project .project-title {
+		width: 55%;
+	}
+
+	#autotrack-project .project-title h1 {
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 991px){
+	#autotrack-project .project-title {
+		padding-top: 15%;
+		width: 57%;
+	}
+
+	#autotrack-project .project-title h1 {
+		font-size: 3em;
+	}
+
+	#autotrack-project .overview {
+		letter-spacing: 1px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#autotrack-project .overview {
+		padding: 0 5%;
+	}
+}
+
+@media screen and (max-width: 725px){
+	#autotrack-project .project-title {
+		width: 55%;
+	}
+
+	#autotrack-project .project-title h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (max-width: 670px){
+	#autotrack-project .project-title {
+		/*padding-top: 15%;*/
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 625px){
+	#autotrack-project .overview {
+		padding: 0 7%;
+	}
+
+	#autotrack-project .project-title {
+		/*padding-top: 15%;*/
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 580px){
+	#autotrack-project .project-title {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 540px){
+	#autotrack-project .project-title {
+		padding-top: 23%;
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#autotrack-project .project-title {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 470px){
+	#autotrack-project .project-title {
+		width: 75%;
+	}
+
+	#autotrack-project .project-title h1 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 440px){
+	#autotrack-project .project-title {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#autotrack-project .project-title {
+		padding-top: 30%;
+		/*width: 57%;*/
+	}
+
+	#autotrack-project .project-title h1 {
+		font-size: 1.5em;
+	}
+
+	#autotrack-project .overview {
+		/*letter-spacing: 1px;*/
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 345px){
+	#autotrack-project .project-title h1 {
+		letter-spacing: 10px;
+	}
+}
+
+
+
+
+
