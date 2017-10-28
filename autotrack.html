@@ -8,6 +8,9 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Arapey|Roboto" rel="stylesheet">
 
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="./assets/vendor/font-awesome/css/font-awesome.min.css">
+
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
@@ -50,9 +53,9 @@
   	</div><!-- /.container-fluid -->
 	</nav>
 
-  <div class="content">
+  <div class="content" id="autotrack-project">
     <div class="full-page">
-      <div id="autotrack-project" class="container project-overview">
+      <div class="container project-overview">
         <div class="project-title">
           <h1>AUTOTRACK</h1>
         </div>
@@ -61,23 +64,32 @@
       <img class="scroll-arrow" src="./assets/images/scroll.png"/>
     </div>
 
-    <div class="row container full-page">
-      <div class="col-md-9">
-        <h4>CONCEPT</h4>
-        <p>Autotrack derived from one of my teammate's past experience working in a car dealership. As the inventory manager, he was responsible of preparing acquired cars in auctions for sale, also known as the reconditioning process. This included cosmetics, maintenance, photo session, and everything in-between.</p>
-        <p>The goal was to turn around a completely reconditioned vehicle in 5 days. The time challenges during the reconditioning process were compoundeded by the lack of a tracking tool, as well as immediate access to the car's progress regardless of the car's location. As a result of internal and external partners inability to quickly assess a vehicle 
-        's needs, the average reconditioning process took 8-9 days. In order to tackle these challenges, we created Autotrack. For details in how Autotrack works, please view Autotrack's GitHub repository.</p>
-        <h4>CONTRIBUTION</h4>
-        <ul>
-          <li>Spearheaded week-long architecture and planning process</li>
-          <li>Completed Main Tasks React component, displays the overall progress of a car</li>
-          <li>Integrated user authentication using JSON Web Tokens</li>
-          <li>Completed Information React component, displays the basics specs of a car</li>
-          <li>Co-created the Profile React component, this component updates progress bars when a task is completed, added, or deleted.</li>
-        </ul>
-      </div>
+    <div class="display-flex project-info">
+      <div class="col-md-6">
+          <div class="information">
+            <div class="concept-title">
+              <h4>CONCEPT</h4>
+            </div>
+            <p>Autotrack derived from one of my teammate's past experience working in a car dealership. As the inventory manager, he was responsible of preparing acquired cars in auctions for sale, also known as the reconditioning process. This included cosmetics, maintenance, photo session, and everything in-between.</p>
+            <p>The goal was to turn around a completely reconditioned vehicle in 5 days. The time challenges during the reconditioning process were compoundeded by the lack of a tracking tool, as well as immediate access to the car's progress regardless of the car's location. As a result of internal and external partners inability to quickly assess a vehicle 
+            's needs, the average reconditioning process took 8-9 days. In order to tackle these challenges, we created Autotrack.</p>
+            <p>For details, please view Autotrack's GitHub repository.</p>
+            <a><button class="btn github-btn"><i class="fa fa-github fa-fw"></i>GITHUB</button></a>
+            <div class="contribution-title">
+              <h4>CONTRIBUTION</h4>
+            </div>
+            <ul>
+              <li>Spearheaded week-long architecture and planning process</li>
+              <li>Completed Main Tasks React component, displays the overall progress of a car</li>
+              <li>Integrated user authentication using JSON Web Tokens</li>
+              <li>Completed Information React component, displays the basics specs of a car</li>
+              <li>Co-created the Profile React component, this component updates progress bars when a task is completed, added, or deleted.</li>
+            </ul>
+            <!-- <a><button class="btn view-btn"><i class="fa fa-link fa-fw"></i>VIEW</button></a> -->
+          </div>
+        </div>
 
-      <div class="col-md-3">
+      <div class="col-md-6 image">
         this is another description
       </div>
     </div>
