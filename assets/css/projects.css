@@ -50,8 +50,8 @@
 .project-info h4 {
 	font-family: 'Lato', Open Sans, Arial;
 	font-size: 1.8em;
-	letter-spacing: 5px;
-	padding-left: 5px;
+	letter-spacing: 10px;
+	padding-left: 10px;
 }
 
 .project-info p {
@@ -66,24 +66,21 @@
 .project-info .github-btn {
 	font-family: 'Lato', Open Sans, Arial;
 	letter-spacing: 2px;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	background: transparent;
 	border: solid;
 	border-color: #bd9753;
 	color: #bd9753;
 	margin: 0 auto;
 	margin-top: 3%;
-	display: flex;
-	align-items: center;
+	display: block;
+	margin: 0 auto;
+	width: 25%;
 }
 
 .project-info .github-btn:hover {
 	background: #bd9753;
 	color: #ffffff;
-}
-
-.project-info a:hover {
-	text-decoration: none;
 }
 
 .project-info .github-btn i {
@@ -141,11 +138,11 @@
 
 /* Concept and Contribution */
 #autotrack-project .project-info .concept-title {
-	width: 34%;
+	width: 41%;
 }
 
 #autotrack-project .project-info .contribution-title {
-	width: 53%;
+	width: 64%;
 }
 
 .image {
