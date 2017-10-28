@@ -45,6 +45,7 @@
 	border-bottom-color: #bd9753;
 	margin-bottom: 3%;
 	padding: 0 2%;
+	width: 42%;
 }
 
 .project-info h4 {
@@ -89,13 +90,13 @@
 }
 
 /* Project's Contribution */
-
 .project-info .contribution-title {
 	margin-top: 5%;
 	padding: 0 2%;
 	border-bottom: solid;
 	border-bottom-color: #bd9753;
 	margin-bottom: 3%;
+	width: 64%;
 }
 
 .project-info ul {
@@ -137,13 +138,7 @@
 }
 
 /* Concept and Contribution */
-#autotrack-project .project-info .concept-title {
-	width: 41%;
-}
 
-#autotrack-project .project-info .contribution-title {
-	width: 64%;
-}
 
 .image {
 	background: white;
@@ -289,7 +284,459 @@
 	}
 }
 
+/* Concept and Contribution Titles */
+@media screen and (max-width: 1417px){
+	.project-info .contribution-title {
+		width: 66%;
+	}
+}
+
+@media screen and (max-width: 1390px){
+	.project-info .contribution-title {
+		width: 68%;
+	}
+}
+
+@media screen and (max-width: 1340px){
+	.project-info .concept-title {
+		width: 44%;
+	}
+
+	.project-info .contribution-title {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 1300px){
+	.project-info .concept-title {
+		width: 46%;
+	}
+
+	.project-info .contribution-title {
+		width: 72%;
+	}
+}
+
+@media screen and (max-width: 1270px){
+	.project-info .contribution-title {
+		width: 74%;
+	}
+}
+
+@media screen and (max-width: 1255px){
+	.project-info .concept-title {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 1235px){
+	.project-info .contribution-title {
+		width: 76%;
+	}
+}
+
+@media screen and (max-width: 1205px){
+	.project-info .concept-title {
+		width: 50%;
+	}
+
+	.project-info .contribution-title {
+		width: 78%;
+	}
+}
+
+@media screen and (max-width: 1175px){
+	.project-info .concept-title {
+		width: 52%;
+	}
+
+	.project-info .contribution-title {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 1145px){
+	.project-info .contribution-title {
+		width: 82%;
+	}
+}
+
+@media screen and (max-width: 1120px){
+	.project-info .concept-title {
+		width: 54%;
+	}
+
+	.project-info .contribution-title {
+		width: 84%;
+	}
+}
+
+@media screen and (max-width: 1190px){
+	.project-info .concept-title {
+		width: 56%;
+	}
+
+	.project-info .contribution-title {
+		width: 86%;
+	}
+}
+
+@media screen and (max-width: 1070px){
+	.project-info .contribution-title {
+		width: 88%;
+	}
+}
+
+@media screen and (max-width: 1040px){
+	.project-info .concept-title {
+		width: 58%;
+	}
+
+	.project-info .contribution-title {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1015px){
+	.project-info .contribution-title {
+		width: 92%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1000px){
+	.project-info .concept-title {
+		width: 60%;
+	}
+
+	.project-info .contribution-title {
+		width: 94%;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.project-info .concept-title {
+		width: 31%;
+	}
+
+	.project-info .contribution-title {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 950px){
+	.project-info .concept-title {
+		width: 33%;
+	}
+
+	.project-info .contribution-title {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 915px){
+	.project-info .concept-title {
+		width: 35%;
+	}
+
+	.project-info .contribution-title {
+		width: 52%;
+	}
+}
+
+@media screen and (max-width: 885px){
+	.project-info .contribution-title {
+		width: 54%;
+	}
+}
+
+@media screen and (max-width: 855px){
+	.project-info .contribution-title {
+		width: 56%;
+	}
+}
+
+@media screen and (max-width: 825px){
+	.project-info .concept-title {
+		width: 37%;
+	}
+
+	.project-info .contribution-title {
+		width: 58%;
+	}
+}
+
+@media screen and (max-width: 785px){
+	.project-info .concept-title {
+		width: 39%;
+	}
+
+	.project-info .contribution-title {
+		width: 61%;
+	}
+}
+
+@media screen and (max-width: 745px){
+	.project-info .concept-title {
+		width: 41%;
+	}
+
+	.project-info .contribution-title {
+		width: 63%;
+	}
+}
+
+@media screen and (max-width: 720px){
+	.project-info .concept-title {
+		width: 44%;
+	}
+
+	.project-info .contribution-title {
+		width: 66%;
+	}
+}
+
+@media screen and (max-width: 695px){
+	.project-info .contribution-title {
+		width: 69%;
+	}
+}
+
+@media screen and (max-width: 660px){
+	.project-info .concept-title {
+		width: 47%;
+	}
+
+	.project-info .contribution-title {
+		width: 72%;
+	}
+}
+
+@media screen and (max-width: 635px){
+	.project-info .concept-title {
+		width: 49%;
+	}
+
+	.project-info .contribution-title {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 610px){
+	.project-info .contribution-title {
+		width: 77%;
+	}
+}
+
+@media screen and (max-width: 590px){
+	.project-info .concept-title {
+		width: 52%;
+	}
+
+	.project-info .contribution-title {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 565px){
+	.project-info .concept-title {
+		width: 54%;
+	}
+
+	.project-info .contribution-title {
+		width: 83%;
+	}
+}
+
+@media screen and (max-width: 545px){
+	.project-info .concept-title {
+		width: 56%;
+	}
+
+	.project-info .contribution-title {
+		width: 87%;
+	}
+}
+
+@media screen and (max-width: 525px){
+	.project-info .concept-title {
+		width: 58%;
+	}
+
+	.project-info .contribution-title {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 510px){
+	.project-info .concept-title {
+		width: 60%;
+	}
+
+	.project-info .contribution-title {
+		width: 93%;
+	}
+}
+
+@media screen and (max-width: 490px){
+	.project-info .concept-title {
+		width: 63%;
+	}
+
+	.project-info .contribution-title {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 460px){
+	.project-info h4 {
+		font-size: 1.5em;
+	}
+
+	.project-info .concept-title {
+		width: 60%;
+	}
+
+	.project-info .contribution-title {
+		width: 94%;
+	}
+}
+
+@media screen and (max-width: 440px){
+	.project-info .concept-title {
+		width: 63%;
+	}
+
+	.project-info .contribution-title {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 415px){
+	.project-info .concept-title {
+		width: 66%;
+	}
+}
+
+@media screen and (max-width: 385px){
+	.project-info .concept-title {
+		width: 70%;
+	}
+}
 
 
 
 
+/* GITHUB BUTTON */
+@media screen and (max-width: 1436px){
+	.project-info .github-btn {
+		width: 26%;
+	}
+}
+
+@media screen and (max-width: 1360px){
+	.project-info .github-btn {
+		width: 27%;
+	}
+}
+
+@media screen and (max-width: 1320px){
+	.project-info .github-btn {
+		width: 28%;
+	}
+}
+
+@media screen and (max-width: 1265px){
+	.project-info .github-btn {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 1210px){
+	.project-info .github-btn {
+		width: 32%;
+	}
+}
+
+@media screen and (max-width: 1120px){
+	.project-info .github-btn {
+		width: 34%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1060px){
+	.project-info .github-btn {
+		width: 38%;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.project-info .github-btn {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 880px){
+	.project-info .github-btn {
+		width: 22%;
+	}
+}
+
+@media screen and (max-width: 810px){
+	.project-info .github-btn {
+		width: 23%;
+	}
+}
+
+@media screen and (max-width: 765px){
+	.project-info .github-btn {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 708px){
+	.project-info .github-btn {
+		width: 27%;
+	}
+}
+
+@media screen and (max-width: 665px){
+	.project-info .github-btn {
+		width: 29%;
+	}
+}
+
+@media screen and (max-width: 615px){
+	.project-info .github-btn {
+		width: 31%;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.project-info .github-btn {
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.project-info .github-btn {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 520px){
+	.project-info .github-btn {
+		width: 38%;
+	}
+}
+
+@media screen and (max-width: 490px){
+	.project-info .github-btn {
+		width: 42%;
+	}
+}
+
+@media screen and (max-width: 435px){
+	.project-info .github-btn {
+		width: 45%;
+	}
+}
