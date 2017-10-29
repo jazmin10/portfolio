@@ -45,6 +45,21 @@ ul.nav.navbar-nav {
 	margin-right: 0px;
 }
 
+#toggle-menu {
+	border-color: #bd9753;
+	border-width: 2px;
+	margin-right: 20px;
+}
+
+#toggle-menu:hover {
+	background: #bd9753;
+}
+
+
+#toggle-menu:focus {
+	background: #997a43;
+}
+
 /* Collapsable Navbar */
 .navbar-collapse {
 	border: none;
@@ -190,7 +205,7 @@ button.navbar-toggle {
 	border-radius: 10px;
 }
 
-#codehive-project button {
+#codehive-project .details-link {
 	margin-top: 7%;
 }
 
@@ -215,8 +230,10 @@ button.navbar-toggle {
 }
 
 /* ================ VIEW PROJECT BUTTONS ================*/
+.details-link {
+	text-align: center;
+}
 .view-btn {
-	display: block;
 	background: transparent;
 	margin: 0 auto;
 	margin-top: 5%;
@@ -237,6 +254,7 @@ button.navbar-toggle {
 
 .view-project-link {
 	text-decoration: none;
+	display: inline-block;
 }
 
 .view-project-link:hover {
@@ -247,17 +265,9 @@ button.navbar-toggle {
 	display: none;
 	position: absolute;
 	bottom: 3%;
-	width: 2.5%;
+	width: 35px;
 	left: 50%;
 }
-
-/*img.scroll {
-	position: absolute;
-	bottom: 3%;
-	width: 2.5%;
-	left: 50%;
-}*/
-
 
 /* ================ CONTACT SECTION ================*/
 #contact-section {
@@ -273,7 +283,7 @@ button.navbar-toggle {
 }
 
 #contact-title {
-	width: 50%;
+	width: 600px;
 	margin: 0 auto;
 	margin-bottom: 10%;
 	margin-top: 3%;
@@ -533,6 +543,10 @@ button.navbar-toggle {
 	#dev-title {
 		transform: translateX(55%);
 	}
+
+	#main-scroll {
+		left: 47%;
+	}
 }
 
 @media screen and (max-width: 400px) {
@@ -542,12 +556,41 @@ button.navbar-toggle {
 
 	.fly-in-text li {
 		font-size: 1.3em;
-		/*margin-right: 7px;*/
 	}
 
 	#dev-title {
 		transform: translateX(55%);
 		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	ul.nav.navbar-nav {
+		margin: 0;
+	}
+
+	.navbar-default .navbar-nav li {
+		margin-right: 5px;
+	}
+	.navbar-default .navbar-nav li a {
+		padding-left: 5px;
+	}
+
+	#je-logo-li {
+		/*width: 13%;*/
+		margin-right: 10px;
+	}
+
+	.fly-in-text {
+		transform: translateX(9%) translateY(-50%);
+	}
+
+	#dev-title {
+		transform: translateX(45%);
+	}
+
+	#main-scroll {
+		left: 47%;
 	}
 }
 
@@ -575,7 +618,7 @@ button.navbar-toggle {
 	}
 
 	.fly-in-text {
-		transform: translateX(5%) translateY(-50%);
+		transform: translateX(6%) translateY(-50%);
 	}
 
 	.fly-in-text li {
@@ -692,7 +735,7 @@ button.navbar-toggle {
 
 @media screen and (max-width: 1070px){
 	#contact-title {
-		width: 60%;
+		width: 500px;
 		margin-bottom: 15%;
 	}
 
@@ -712,7 +755,6 @@ button.navbar-toggle {
 	}
 
 	#contact-title {
-		width: 70%;
 		margin-bottom: 17%;
 	}
 
@@ -735,7 +777,7 @@ button.navbar-toggle {
 	}
 
 	#contact-title {
-		width: 80%;
+		width: 400px;
 	}
 }
 
@@ -759,6 +801,9 @@ button.navbar-toggle {
 }
 
 @media screen and (max-width: 501px){
+	#contact-title {
+		width: 340px;
+	}
 	#contact-title h4 {
 		font-size: 1.3em;
 		letter-spacing: 8px;
@@ -774,6 +819,9 @@ button.navbar-toggle {
 }
 
 @media screen and (max-width: 465px){
+	#contact-title {
+		width: 270px;
+	}
 	#contact-title h4 {
 		font-size: 1.2em;
 		letter-spacing: 5px;
@@ -782,7 +830,6 @@ button.navbar-toggle {
 
 @media screen and (max-width: 400px){
 	#contact-title {
-		width: 90%;
 		margin-bottom: 30%;
 	}
 
@@ -792,13 +839,23 @@ button.navbar-toggle {
 }
 
 @media screen and (max-width: 360px){
+	#contact-title {
+		width: 240px;
+	}
+
 	#contact-title h4 {
 		font-size: 1.2em;
+		padding-left: 0px;
 	}
 }
 
 @media screen and (max-width: 320px){
+	#contact-title {
+		width: 200px;
+	}
+
 	#contact-title h4 {
+		font-size: 1em;
 		letter-spacing: 3px;
 	}
 
@@ -811,23 +868,5 @@ button.navbar-toggle {
 	}
 }
 
-/* Scroll Arrow */
-@media screen and (max-width: 900px){
-	#main-scroll {
-		width: 3%;
-	}
-}
-
-@media screen and (max-width: 770px){
-	#main-scroll {
-		width: 4%;
-	}
-}
-
-@media screen and (max-width: 550px){
-	#main-scroll {
-		width: 5%;
-	}
-}
 
 
