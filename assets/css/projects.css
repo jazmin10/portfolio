@@ -1,8 +1,8 @@
 /* ================ OVERALL STYLING ================*/
 
-/*.content {
+.content {
 	display: none;
-}*/
+}
 
 /* Project Overview */
 .full-page {
@@ -26,10 +26,13 @@
 .content {
 	overflow: hidden;
 }
+
 /* Project's Concept */
 .display-flex {
-  flex-wrap: wrap;
+	display: flex;
+  	flex-wrap: wrap;
 }
+
 .display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
@@ -114,6 +117,29 @@
 	margin-bottom: 1%;
 }
 
+.project-info .view-proj-link {
+	display: inline-block;
+}
+
+.project-info .view-proj-link .btn {
+	background: transparent;
+	border: solid;
+	border-color: #bd9753;
+	color: #ffffff;
+	font-family: 'Lato', Open Sans, Arial;
+	letter-spacing: 2px;
+	font-size: 1.3em;
+}
+
+.project-info .view-proj-link .btn:hover {
+	background: #bd9753;
+}
+
+.project-info .view-proj-link .btn:focus {
+	background: transparent;
+	color: #bd9753;
+}
+
 /* ================ AUTOTRACK ================*/
 
 /* Overview */
@@ -140,16 +166,44 @@
 	line-height: 1.5;
 }
 
-/* Concept and Contribution */
-
-
-.image {
-	background: white;
+/* Image */
+#autotrack-project .image div {
+	height: 100%;
+	margin: 2% 4%;
+	border: solid;
+	border-color: #00bfff;
+	box-shadow: 0px 0px 15px #00ffff;
+	text-align: center;
 }
 
+#autotrack-logo {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 400px;
+	margin-bottom: 3%;
+}
+
+/*#autotrack-project .image a {
+	display: inline-block;
+	margin-top: 5%;
+}*/
 
 
 /* ================ MEDIA QUERIES ================*/
+/* Scroll Arrow */
+@media screen and (max-width: 991px) {
+	.scroll-arrow {
+		left: 49.5%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.scroll-arrow {
+		left: 47%;
+	}
+}
+
 /* Autotrack Overview Content */
 @media screen and (max-width: 991px) {
 	#autotrack-project .project-title h1 {
@@ -198,6 +252,29 @@
 
 	#autotrack-project .project-title {
 		width: 350px;
+	}
+}
+
+/* Autotrack Image */
+@media screen and (min-width: 1700px) {
+	#autotrack-logo {
+		margin-top: 300px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#autotrack-logo {
+		margin-top: 500px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#autotrack-logo {
+		margin-top: 100px;
+	}
+
+	#autotrack-project .image a {
+		margin-bottom: 100px;
 	}
 }
 

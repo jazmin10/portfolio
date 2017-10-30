@@ -45,6 +45,7 @@ $(document).ready(function(){
 	// Fades in page content
 	function contentFadeIn(){
 		$(".content").fadeIn(4000);
+		$(".scroll-arrow").css("display", "none");
 	}
 
 	// Fades in "JE" logo in navbar
@@ -65,12 +66,17 @@ $(document).ready(function(){
 		}
 	}
 
+	function arrowFadeIn(){
+		$(".scroll-arrow").fadeIn(3000);
+	}
+
 	var bounceValue = false;
 	
 	$(window).scroll(collapseNavbar);
 	navbarFadeIn();
 	setTimeout(logoFadeIn, 1500);
 	setTimeout(contentFadeIn, 3000);
+	setInterval(arrowFadeIn, 4000);
 	setInterval(bounce, 500);
 	
 });
