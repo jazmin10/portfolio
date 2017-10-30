@@ -47,6 +47,22 @@ ul.nav.navbar-nav {
 	margin-right: 0px;
 }
 
+/* Navbar Toggle Menu */
+#toggle-menu {
+	border-color: #bd9753;
+	border-width: 2px;
+	margin-right: 20px;
+}
+
+#toggle-menu:hover {
+	background: #bd9753;
+}
+
+
+#toggle-menu:focus {
+	background: #997a43;
+}
+
 /* Collapsable Navbar */
 .navbar-collapse {
 	border: none;
