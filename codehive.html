@@ -1,15 +1,106 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="eng-us">
 <head>
 	<title>Estrada, J</title>
 
+	<!-- <link rel="icon" href="./assets/images/favicon.png"> -->
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Arapey|Roboto" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="./assets/vendor/font-awesome/css/font-awesome.min.css">
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap: Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="assets/js/projects.js" type="text/javascript"></script>
+
+	<!-- Bootstrap: Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+  <link rel="stylesheet" href="assets/css/projects.css" type="text/css">
 </head>
 
 <body>
-	<div>CODEHIVE PAGE</div>
+	<nav class="navbar navbar-default fade-in navbar-fixed-top">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button id="toggle-menu" value="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+        <li><a class="navbar-links" href="./about.html">ABOUT</a></li>
+        <li><a href="./portfolio.html">PORTFOLIO</a></li>
+        <li id="je-logo-li"><a href="./index.html"><img id="je-logo" src="./assets/images/je-logo-tan.png"/></a></li>
+        <li><a href="./skills.html">SKILLS</a></li>
+        <li><a href="./contact.html">CONTACT</a></li> 
+      </ul>
+  	</div><!-- /.container-fluid -->
+	</nav>
+
+  <div class="content" id="codehive-project">
+    <div class="full-page">
+      <div class="container project-overview">
+        <div class="project-title">
+          <h1>CODEHIVE</h1>
+        </div>
+        <p class="overview">Codehive is a MVC framework application designed to be a study guide and career development tool for new comers to the web development world. With Codehive, fellow developers can share their best interview tips, advice, and coding challenges.</p>
+      </div>
+      <img class="scroll-arrow" src="./assets/images/scroll.png"/>
+    </div>
+
+    <div class="display-flex project-info">
+      <div class="col-md-6">
+          <div class="information">
+            <div class="concept-title">
+              <h4>CONCEPT</h4>
+            </div>
+            
+            <p>From my experience as a new comer to the web development world, learning new programming languages, as well as preparing for the interview process, can be intimidating. Slowly but surely you may feel overwhelmed and discouraged. However, what if you didn't have to experience this daunting task on your own? Hence, Codehive.</p>
+						<p>Codehive's purpose is to build a community of developers who can support and guide each other by creating an ongoing collection of programming knowledge.</p>
+						<p>For details, please view Code Hive's GitHub repository. To view an account in Code Hive, you may use demo for username and password.</p>
+          
+            <a class="btn github-btn" href="https://github.com/Finfischley/codeCrowd" target="_blank"><i class="fa fa-github fa-fw"></i>GITHUB</a>
+            <div class="contribution-title">
+              <h4>CONTRIBUTION</h4>
+            </div>
+            <ul>
+              <li>Integrated user authentication using JSON Web Tokens</li>
+              <li>Completed the Sequelize model objects</li>
+              <li>Set up Node.js &amp; Express.js web server</li>
+              <li>Built HTML and API routing using Express.js</li>
+              <li>Integrated logic that updates post's likes and flags</li>
+            </ul>
+          </div>
+        </div>
+
+      <div class="col-md-6 image">
+        <div>
+          <img id="codehive-logo" alt="Codehive" src="./assets/images/codehive-logo.png">
+          <a href="https://codehive.herokuapp.com/" target="_blank" class="view-proj-link">
+            <button class="btn">VIEW</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	
 </body>
-
 </html>
