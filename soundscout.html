@@ -1,15 +1,114 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="eng-us">
 <head>
 	<title>Estrada, J</title>
 
+	<!-- <link rel="icon" href="./assets/images/favicon.png"> -->
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Arapey|Roboto" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="./assets/vendor/font-awesome/css/font-awesome.min.css">
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap: Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="assets/js/projects.js" type="text/javascript"></script>
+
+	<!-- Bootstrap: Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+  <link rel="stylesheet" href="assets/css/projects.css" type="text/css">
 </head>
 
 <body>
-	<div>SOUNDSCOUT PAGE</div>
+	<nav class="navbar navbar-default fade-in navbar-fixed-top">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button id="toggle-menu" value="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a class="navbar-links" href="./about.html">ABOUT</a></li>
+        <li><a href="./portfolio.html">PORTFOLIO</a></li>
+        <li id="je-logo-li"><a href="./index.html"><img id="je-logo" src="./assets/images/je-logo-tan.png"/></a></li>
+        <li><a href="./skills.html">SKILLS</a></li>
+        <li><a href="./contact.html">CONTACT</a></li> 
+      </ul>
+  	</div><!-- /.container-fluid -->
+	</nav>
+
+	<!-- Code Hive title and overview -->
+  <div class="content" id="soundscout-project">
+    <div class="full-page">
+      <div class="container project-overview">
+
+        <div class="project-title">
+          <h1>SOUNDSCOUT</h1>
+        </div>
+
+        <p class="overview">SoundScout is an application that enhances your music experience by delivering information of upcoming concerts, map of shows, popular recorded tracks, and twitter timeline of your favorite artist in one convenient location.</p>
+      </div>
+
+      <img class="scroll-arrow" src="./assets/images/scroll.png"/>
+    </div>
+
+		<!-- Project's details -->
+    <div class="display-flex project-info">
+    	<!-- Project's concept and contribution -->
+      <div class="col-md-6">
+        <div class="information">
+
+          <div class="concept-title">
+            <h4>CONCEPT</h4>
+          </div>
+            
+          <p>When thinking about our first project working together as a team, the SoundScout team wanted to create an application that would enhance an user's music experience by bringing practicality to an enjoyable part of their life.</p>
+        	<p>Unlike other concert search sites, we wanted to provide a visual representation of upcoming concerts along with music and social media snippets of the artist(s).</p>
+					<p>For details, please view SoundScout's GitHub repository.</p>
+        
+          <a class="btn github-btn" href="https://github.com/sadashivakj/SoundScout" target="_blank"><i class="fa fa-github fa-fw"></i>GITHUB</a>
+         
+          <div class="contribution-title">
+            <h4>CONTRIBUTION</h4>
+          </div>
+
+          <ul>
+            <li>Co-developed map functionality using Google Maps</li>
+            <li>Developed AJAX requests to TicketMaster Discovery API</li>
+            <li>Integrated functionality for Twitter Timeline widget</li>
+            <li>Co-developed Recent Searches functionality using Firebase</li>
+          </ul>
+        </div>
+      </div>
+
+			<!-- Project's image -->
+      <div class="col-md-6 image">
+        <div>
+          <img id="codehive-logo" alt="Codehive" src="./assets/images/soundscout-logo.png">
+          <a href="https://realsoundscout.herokuapp.com/" target="_blank" class="view-proj-link">
+            <button class="btn">VIEW</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	
 </body>
-
 </html>
