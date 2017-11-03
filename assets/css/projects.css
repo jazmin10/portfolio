@@ -110,7 +110,6 @@
 	font-size: 1.3em;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
-	/*margin-bottom: 5%;*/
 }
 
 .project-info ul li {
@@ -119,6 +118,8 @@
 
 .project-info .view-proj-link {
 	display: inline-block;
+	width: min-content;
+	margin: 0 auto;
 }
 
 .project-info .view-proj-link .btn {
@@ -147,15 +148,15 @@
 	padding-top: 10%;
 	border-bottom: solid;
 	border-bottom-color: #bd9753;
-	width: 700px;
+	width: 950px;
 	margin: 0 auto;
 	font-family: 'Lato', Open Sans, Arial;
 	margin-bottom: 5%;
 }
 
 #autotrack-project .project-title h1 {
-	letter-spacing: 15px;
-	padding-left: 15px;
+	letter-spacing: 50px;
+	padding-left: 50px;
 	font-size: 5em;
 }
 
@@ -185,19 +186,21 @@
 }
 
 /* ================ CODEHIVE ================*/
+
+/* Overview */
 #codehive-project .project-title {
 	padding-top: 10%;
 	border-bottom: solid;
 	border-bottom-color: #bd9753;
-	width: 600px;
+	width: 850px;
 	margin: 0 auto;
 	font-family: 'Lato', Open Sans, Arial;
 	margin-bottom: 5%;
 }
 
 #codehive-project .project-title h1 {
-	letter-spacing: 15px;
-	padding-left: 15px;
+	letter-spacing: 50px;
+	padding-left: 50px;
 	font-size: 5em;
 }
 
@@ -208,6 +211,28 @@
 	line-height: 1.5;
 }
 
+/* Image */
+#codehive-project .image {
+	background: url("../images/hive-background.svg") no-repeat;
+	margin: 1% 0%;
+	text-align: center;
+}
+
+#codehive-project .image div {
+	background: #000000;
+	width: min-content;
+	margin: 0 auto;
+	margin-top: 230px;
+	margin-bottom: 50px;
+}
+
+#codehive-logo {
+	width: 500px;
+}
+
+#codehive-project .image button {
+	font-weight: 800;
+}
 
 
 /* ================ MEDIA QUERIES ================*/
@@ -224,136 +249,18 @@
 	}
 }
 
-/* Autotrack Overview Content */
-@media screen and (max-width: 991px) {
-	#autotrack-project .project-title h1 {
-		font-size: 4em;
-	}
-
-	#autotrack-project .project-title {
-		width: 600px;
-	}
-}
-
+/* Project Overview */
 @media screen and (max-width: 767px) {
-	#autotrack-project .project-title h1 {
-		font-size: 3.5em;
-	}
-
-	#autotrack-project .project-title {
-		padding-top: 15%;
-		width: 500px;
-	}
-
-	#codehive-project .project-title h1 {
-		font-size: 4em;
-	}
-
-	#codehive-project .project-title {
-		padding-top: 15%;
-		width: 500px;
-	}
-
-	#codehive-project .overview {
+	.overview {
 		padding: 0% 5%;
 	}
 }
 
-@media screen and (max-width: 600px) {
-	#autotrack-project .project-title h1 {
-		font-size: 3em;
-	}
-
-	#autotrack-project .project-title {
-		width: 450px;
-	}
-
-	#codehive-project .project-title h1 {
-		font-size: 3em;
-	}
-
-	#codehive-project .project-title {
-		width: 400px;
+@media screen and (max-width: 320px) {
+	.overview {
+		padding: 0%;
 	}
 }
-
-@media screen and (max-width: 524px) {
-	#autotrack-project .project-title h1 {
-		font-size: 2.5em;
-	}
-
-	#autotrack-project .project-title {
-		padding-top: 20%;
-		width: 400px;
-	}
-
-	#codehive-project .project-title {
-		padding-top: 20%;
-	}
-}
-
-@media screen and (max-width: 440px) {
-	#autotrack-project .project-title h1 {
-		font-size: 2em;
-	}
-
-	#autotrack-project .project-title {
-		width: 350px;
-	}
-
-	#codehive-project .project-title h1 {
-		font-size: 2.3em;
-	}
-
-	#codehive-project .project-title {
-		width: 330px;
-	}
-}
-
-@media screen and (max-width: 375px) {
-	#autotrack-project .project-title h1 {
-		font-size: 1.8em;
-		letter-spacing: 10px;
-		padding-left: 10px;
-	}
-
-	#autotrack-project .project-title {
-		width: 280px;
-	}
-
-	#codehive-project .project-title h1 {
-		font-size: 2em;
-		letter-spacing: 10px;
-		padding-left: 10px;
-	}
-
-	#codehive-project .project-title {
-		width: 250px;
-	}
-}
-/* Autotrack Image */
-@media screen and (min-width: 1700px) {
-	#autotrack-logo {
-		margin-top: 300px;
-	}
-}
-
-@media screen and (max-width: 1100px) {
-	#autotrack-logo {
-		margin-top: 500px;
-	}
-}
-
-@media screen and (max-width: 991px) {
-	#autotrack-logo {
-		margin-top: 100px;
-	}
-
-	#autotrack-project .image a {
-		margin-bottom: 100px;
-	}
-}
-
 
 /* Concept and Contribution Titles */
 @media screen and (min-width: 2300px){
@@ -382,3 +289,275 @@
 		width: 220px;
 	}
 }
+
+/* Autotrack Overview Content */
+@media screen and (max-width: 1199px) {
+	#autotrack-project .project-title h1 {
+		font-size: 4em;
+	}
+
+	#autotrack-project .project-title {
+		width: 850px;
+	}
+}
+
+@media screen and (max-width: 1015px) {
+	#autotrack-project .project-title h1 {
+		font-size: 3.5em;
+		letter-spacing: 45px;
+		padding-left: 45px;
+	}
+
+	#autotrack-project .project-title {
+		width: 750px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 4.5em;
+		letter-spacing: 45px;
+		padding-left: 45px;
+	}
+
+	#codehive-project .project-title {
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#autotrack-project .project-title h1 {
+		font-size: 3em;
+	}
+
+	#autotrack-project .project-title {
+		width: 700px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 4em;
+	}
+
+	#codehive-project .project-title {
+		width: 700px;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	#autotrack-project .project-title h1 {
+		letter-spacing: 40px;
+		padding-left: 40px;
+	}
+
+	#autotrack-project .project-title {
+		width: 650px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 3.5em;
+	}
+
+	#codehive-project .project-title {
+		width: 650px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#autotrack-project .project-title h1 {
+		letter-spacing: 30px;
+		padding-left: 30px;
+	}
+
+	#autotrack-project .project-title {
+		padding-top: 15%;
+		width: 600px;
+	}
+
+	#codehive-project .project-title h1 {
+		letter-spacing: 37px;
+		padding-left: 37px;
+	}
+
+	#codehive-project .project-title {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 685px) {
+	#autotrack-project .project-title {
+		width: 550px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 3em;
+	}
+
+	#codehive-project .project-title {
+		width: 550px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#autotrack-project .project-title h1 {
+		font-size: 2.5em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#autotrack-project .project-title {
+		width: 480px;
+	}
+
+	#codehive-project .project-title h1 {
+		letter-spacing: 33px;
+		padding-left: 33px;
+	}
+
+	#codehive-project .project-title {
+		width: 510px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#autotrack-project .project-title h1 {
+		font-size: 2em;
+		letter-spacing: 23px;
+		padding-left: 23px;
+	}
+
+	#autotrack-project .project-title {
+		padding-top: 20%;
+		width: 400px;
+	}
+
+	#codehive-project .project-title h1 {
+		letter-spacing: 30px;
+		padding-left: 30px;
+		font-size: 2.5em;
+	}
+
+	#codehive-project .project-title {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#codehive-project .project-title h1 {
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#codehive-project .project-title {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	#autotrack-project .project-title h1 {
+		font-size: 1.8em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#autotrack-project .project-title {
+		width: 360px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 2em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#codehive-project .project-title {
+		width: 340px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#autotrack-project .project-title h1 {
+		font-size: 1.5em;
+		letter-spacing: 17px;
+		padding-left: 17px;
+	}
+
+	#autotrack-project .project-title {
+		width: 320px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#autotrack-project .project-title h1 {
+		letter-spacing: 12px;
+		padding-left: 12px;
+	}
+
+	#autotrack-project .project-title {
+		width: 280px;
+	}
+
+	#codehive-project .project-title h1 {
+		letter-spacing: 15px;
+		padding-left: 15px;
+	}
+
+	#codehive-project .project-title {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	#codehive-project .project-title h1 {
+		letter-spacing: 17px;
+		padding-left: 17px;
+		font-size: 1.5em;
+	}
+
+	#codehive-project .project-title {
+		width: 270px;
+	}
+}
+
+
+/* Autotrack Image */
+@media screen and (min-width: 1700px) {
+	#autotrack-logo {
+		margin-top: 300px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#autotrack-logo {
+		margin-top: 500px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#autotrack-logo {
+		margin-top: 100px;
+	}
+
+	#autotrack-project .image a {
+		margin-bottom: 100px;
+	}
+}
+
+/* Codehive Image */
+@media screen and (max-width: 1300px) {
+	#codehive-project .image div {
+		margin-top: 270px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#codehive-project .image div {
+		margin-top: 350px;
+	}
+
+	#codehive-logo {
+		width: 450px;
+	}
+}
+
+
+
+
+
