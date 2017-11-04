@@ -116,6 +116,15 @@
 	margin-bottom: 1%;
 }
 
+.project-info .image {
+	text-align: center;
+}
+
+.project-info .image-content {
+	margin: 2% 4%;
+	height: 100%;
+}
+
 .project-info .view-proj-link {
 	display: inline-block;
 	width: min-content;
@@ -212,14 +221,12 @@
 }
 
 /* Image */
-#codehive-project .image {
+/*#codehive-project .image {
 	text-align: center;
-}
+}*/
 
 #codehive-project .image-content {
 	background: url("../images/hive-background.svg") no-repeat;
-	margin: 2% 4%;
-	height: 100%;
 }
 
 #codehive-project .image-content div {
@@ -238,6 +245,52 @@
 	font-weight: 800;
 }
 
+/* ================ SOUNDSCOUT ================*/
+
+/* Overview */
+#soundscout-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 1030px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#soundscout-project .project-title h1 {
+	letter-spacing: 45px;
+	padding-left: 45px;
+	font-size: 5em;
+}
+
+#soundscout-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+}
+
+/* Image */
+/*#codehive-project .image {
+	text-align: center;
+}*/
+
+#soundscout-project .image-content {
+	background: url("../images/soundscout-background.jpg") no-repeat;
+}
+
+#soundscout-project .image-content div {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.43);
+}
+
+#soundscout-logo {
+	display: block;
+	margin: 0 auto;
+	width: 550px;
+	padding-top: 200px;
+}
 
 /* ================ MEDIA QUERIES ================*/
 /* Scroll Arrow */
@@ -303,6 +356,14 @@
 	#autotrack-project .project-title {
 		width: 850px;
 	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 4em;
+	}
+
+	#soundscout-project .project-title {
+		width: 900px;
+	}
 }
 
 @media screen and (max-width: 1015px) {
@@ -325,6 +386,16 @@
 	#codehive-project .project-title {
 		width: 750px;
 	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 3.5em;
+		letter-spacing: 40px;
+		padding-left: 40px;
+	}
+
+	#soundscout-project .project-title {
+		width: 800px;
+	}
 }
 
 @media screen and (max-width: 991px) {
@@ -342,6 +413,27 @@
 
 	#codehive-project .project-title {
 		width: 700px;
+	}
+
+	#soundscout-project .project-title h1 {
+		letter-spacing: 35px;
+		padding-left: 35px;
+	}
+
+	#soundscout-project .project-title {
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#soundscout-project .project-title h1 {
+		font-size: 3em;
+		letter-spacing: 30px;
+		padding-left: 30px;
+	}
+
+	#soundscout-project .project-title {
+		width: 650px;
 	}
 }
 
@@ -383,6 +475,16 @@
 	#codehive-project .project-title {
 		width: 600px;
 	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 2.5em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#soundscout-project .project-title {
+		width: 550px;
+	}
 }
 
 @media screen and (max-width: 685px) {
@@ -396,6 +498,10 @@
 
 	#codehive-project .project-title {
 		width: 550px;
+	}
+
+	#soundscout-project .project-title {
+		width: 530px;
 	}
 }
 
@@ -417,6 +523,16 @@
 
 	#codehive-project .project-title {
 		width: 510px;
+	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 2.3em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#soundscout-project .project-title {
+		width: 450px;
 	}
 }
 
@@ -452,6 +568,16 @@
 	#codehive-project .project-title {
 		width: 400px;
 	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 2em;
+		letter-spacing: 15px;
+		padding-left: 15px;
+	}
+
+	#soundscout-project .project-title {
+		width: 380px;
+	}
 }
 
 @media screen and (max-width: 440px) {
@@ -473,6 +599,15 @@
 
 	#codehive-project .project-title {
 		width: 340px;
+	}
+
+	#soundscout-project .project-title h1 {
+		letter-spacing: 13px;
+		padding-left: 13px;
+	}
+
+	#soundscout-project .project-title {
+		width: 360px;
 	}
 }
 
@@ -506,6 +641,14 @@
 	#codehive-project .project-title {
 		width: 300px;
 	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 1.7em;
+	}
+
+	#soundscout-project .project-title {
+		width: 330px;
+	}
 }
 
 @media screen and (max-width: 340px) {
@@ -518,8 +661,22 @@
 	#codehive-project .project-title {
 		width: 270px;
 	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 1.3em;
+	}
+
+	#soundscout-project .project-title {
+		width: 280px;
+	}
 }
 
+/* General Project's Image Styling */
+@media screen and (max-width: 991px) {
+	.project-info .image {
+		width: 100%;
+	}
+}
 
 /* Autotrack Image */
 @media screen and (min-width: 1700px) {
@@ -577,10 +734,6 @@
 }
 
 @media screen and (max-width: 991px) {
-	#codehive-project .image {
-		width: 100%;
-	}
-
 	#codehive-project .image-content div {
 		margin-top: 100px;
 	}
@@ -636,6 +789,77 @@
 	}
 }
 
+/* SoundScout Image */
+@media screen and (max-width: 1280px) {
+	#soundscout-logo {
+		width: 500px;
+		padding-top: 250px;
+	}
+}
 
+@media screen and (max-width: 1120px) {
+	#soundscout-logo {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 1035px) {
+	#soundscout-logo {
+		width: 400px;
+		padding-top: 300px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#soundscout-project .image-content {
+		background: url("../images/soundscout-background-proj.jpg") no-repeat;
+	}
+
+	#soundscout-logo {
+		width: 600px;
+		padding-top: 100px;
+	}
+
+	#soundscout-project .image a {
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#soundscout-logo {
+		width: 500px;
+		/*padding-top: 100px;*/
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#soundscout-logo {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 525px) {
+	#soundscout-logo {
+		width: 380px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	#soundscout-logo {
+		width: 330px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#soundscout-logo {
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 325px) {
+	#soundscout-logo {
+		width: 250px;
+	}
+}
 
 
