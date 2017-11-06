@@ -272,10 +272,6 @@
 }
 
 /* Image */
-/*#codehive-project .image {
-	text-align: center;
-}*/
-
 #soundscout-project .image-content {
 	background: url("../images/soundscout-background.jpg") no-repeat;
 }
@@ -290,6 +286,51 @@
 	margin: 0 auto;
 	width: 550px;
 	padding-top: 200px;
+}
+
+/* ================ SOCCER WEBSCRAPPER ================*/
+#webscraper-project .project-title h1 {
+	letter-spacing: 50px;
+	padding-left: 50px;
+	font-size: 4.5em;
+}
+
+#webscraper-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 1050px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#webscraper-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.7em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+	padding: 0px 100px;
+}
+
+/* Image */
+#webscraper-project .image-content {
+	background: url("../images/turf.jpg") no-repeat;
+}
+
+#webscraper-logo {
+	color: #ffffff;
+	font-family: 'Anton', sans-serif;
+	font-size: 5em;
+	letter-spacing: 1px;
+	margin-top: 200px;
+	margin-bottom: 50px;
+
+}
+
+#webscraper-logo span {
+	font-size: .8em;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 /* ================ MEDIA QUERIES ================*/
@@ -862,4 +903,90 @@
 	}
 }
 
+/* Web Scraper Image */
+@media screen and (max-width: 1285px) {
+	#webscraper-logo {
+		font-size: 4.5em;
+		margin-bottom: 40px;
 
+	}
+
+	#webscraper-logo span {
+		font-size: .7em;
+	}	
+}
+
+@media screen and (max-width: 1060px) {
+	#webscraper-logo {
+		font-size: 4em;
+		margin-top: 220px;
+
+	}
+
+	#webscraper-logo span {
+		font-size: .6em;
+	}	
+}
+
+@media screen and (max-width: 991px) {
+	#webscraper-logo {
+		font-size: 5em;
+		margin-top: 100px;
+	}
+
+	#webscraper-logo span {
+		font-size: .8em;
+	}
+
+	#webscraper-project .image a {
+		margin-bottom: 100px;
+	}	
+}
+
+@media screen and (max-width: 630px) {
+	#webscraper-logo {
+		font-size: 4.5em;
+		margin-bottom: 30px;
+	}
+
+	#webscraper-logo span {
+		font-size: .7em;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	#webscraper-logo {
+		font-size: 4em;
+	}
+
+	#webscraper-logo span {
+		font-size: .6em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#webscraper-logo {
+		font-size: 3.5em;
+	}
+
+	#webscraper-logo span {
+		font-size: .5em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#webscraper-logo {
+		font-size: 3em;
+		margin-top: 75px;
+	}
+
+	#webscraper-project .image a {
+		margin-bottom: 75px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#webscraper-logo {
+		font-size: 2.5em;
+	}
+}
