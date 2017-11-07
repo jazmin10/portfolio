@@ -221,7 +221,6 @@
 }
 
 /* Image */
-
 #codehive-project .image-content {
 	background: url("../images/hive-background.svg") no-repeat;
 }
@@ -328,6 +327,51 @@
 #webscraper-logo span {
 	font-size: .8em;
 	font-family: 'Fjalla One', sans-serif;
+}
+
+/* ================ SOCCER WEBSCRAPPER ================*/
+#bamazon-project .project-title h1 {
+	letter-spacing: 60px;
+	padding-left: 60px;
+	font-size: 5em;
+}
+
+#bamazon-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 850px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#bamazon-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+}
+
+/* Image */
+#bamazon-project .image-content {
+	background: url("../images/bamazon-background2.png");
+	background-size: 100%;
+}
+
+#bamazon-project .image-content div {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.67);
+}
+
+#bamazon-logo {
+	font-size: 5em;
+	margin: 0;
+	color: #20b2aa;
+	font-family: 'Arial', 'Helvetica';
+	font-weight: bolder;
+	padding-top: 200px;
+	letter-spacing: 5px;
 }
 
 /* ================ MEDIA QUERIES ================*/
@@ -479,6 +523,16 @@
 	#webscraper-project .project-title {
 		width: 700px;
 	}
+
+	#bamazon-project .project-title h1 {
+		letter-spacing: 50px;
+		padding-left: 50px;
+		font-size: 4.5em;
+	}
+
+	#bamazon-project .project-title {
+		width: 730px;
+	}
 }
 
 @media screen and (max-width: 850px) {
@@ -508,6 +562,14 @@
 	}
 
 	#codehive-project .project-title {
+		width: 650px;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 3.7em;
+	}
+
+	#bamazon-project .project-title {
 		width: 650px;
 	}
 }
@@ -551,6 +613,15 @@
 	#webscraper-project .project-title {
 		width: 600px;
 	}
+
+	#bamazon-project .project-title h1 {
+		letter-spacing: 43px;
+		padding-left: 43px;
+	}
+
+	#bamazon-project .project-title {
+		width: 600px;
+	}
 }
 
 @media screen and (max-width: 685px) {
@@ -582,6 +653,16 @@
 
 	#webscraper-project .project-overview {
 		padding-top: 15%;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 3em;
+		letter-spacing: 40px;
+		padding-left: 40px;
+	}
+
+	#bamazon-project .project-title {
+		width: 530px;
 	}
 }
 
@@ -630,6 +711,16 @@
 
 	#webscraper-project .project-overview {
 		padding-top: 20%;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 2.5em;
+		letter-spacing: 37px;
+		padding-left: 37px;
+	}
+
+	#bamazon-project .project-title {
+		width: 470px;
 	}
 }
 
@@ -691,6 +782,16 @@
 
 	#webscraper-project .project-title {
 		width: 420px;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 2.3em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#bamazon-project .project-title {
+		width: 360px;
 	}
 }
 
@@ -758,6 +859,14 @@
 
 	#webscraper-project .project-title {
 		width: 330px;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 1.7em;
+	}
+
+	#bamazon-project .project-title {
+		width: 320px;
 	}
 }
 
@@ -828,6 +937,16 @@
 
 	#webscraper-project .project-title {
 		width: 280px;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 1.3em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#bamazon-project .project-title {
+		width: 260px;
 	}
 }
 
@@ -1109,3 +1228,48 @@
 		font-size: 2.5em;
 	}
 }
+
+/* BAMAZON */
+@media screen and (max-width: 1240px) {
+	#bamazon-logo {
+		padding-top: 220px;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	#bamazon-logo {
+		font-size: 4.5em;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#bamazon-logo {
+		font-size: 5em;
+		padding: 100px 0px;
+	}
+}
+
+@media screen and (max-width: 545px) {
+	#bamazon-logo {
+		font-size: 4.5em;
+	}
+}
+
+@media screen and (max-width: 465px) {
+	#bamazon-logo {
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#bamazon-logo {
+		font-size: 3.5em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#bamazon-logo {
+		font-size: 3em;
+	}
+}
+
