@@ -151,7 +151,13 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 732px){
+@media screen and (max-width: 767px) {
+	#active-tab	{
+
+	}
+}
+
+@media screen and (max-width: 741px){
 	.navbar-nav li {
 		margin-right: 4%;
 	}
@@ -168,6 +174,10 @@ button.navbar-toggle {
 
 	#je-logo-li {
 		width: 17%;
+	}
+
+	#active-tab {
+		padding-bottom: 3px;
 	}
 }
 
@@ -212,6 +222,11 @@ button.navbar-toggle {
 		letter-spacing: 3px;
 		padding-right: 0px;
 	}
+
+	#active-tab {
+		padding-left: 8px;
+		padding-right: 5px;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -253,7 +268,7 @@ button.navbar-toggle {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
 	.navbar-nav {
 		margin: 0;
 	}
@@ -276,7 +291,7 @@ button.navbar-toggle {
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 371px) {
 	.navbar-nav {
 		margin: 0;
 	}
@@ -286,7 +301,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 344px) {
 	.navbar-nav {
 		margin: 0;
 	}
@@ -294,4 +309,10 @@ button.navbar-toggle {
 	.navbar-default .navbar-nav li a:first-child {
 		padding-left: 5px;
 	}
+
+	#active-tab {
+		padding: 0px;
+	}
+
+
 }
