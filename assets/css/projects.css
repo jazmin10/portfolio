@@ -329,7 +329,7 @@
 	font-family: 'Fjalla One', sans-serif;
 }
 
-/* ================ SOCCER WEBSCRAPPER ================*/
+/* ================ BAMAZON ================*/
 #bamazon-project .project-title h1 {
 	letter-spacing: 60px;
 	padding-left: 60px;
@@ -373,6 +373,51 @@
 	padding-top: 200px;
 	letter-spacing: 5px;
 }
+
+/* ================ HANGMAN ================*/
+#hangman-project .project-title h1 {
+	letter-spacing: 60px;
+	padding-left: 60px;
+	font-size: 5em;
+}
+
+#hangman-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 850px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#hangman-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+}
+
+/* Image */
+/*#bamazon-project .image-content {
+	background: url("../images/bamazon-background2.png");
+	background-size: 100%;
+}
+
+#bamazon-project .image-content div {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.67);
+}
+
+#bamazon-logo {
+	font-size: 5em;
+	margin: 0;
+	color: #20b2aa;
+	font-family: 'Arial', 'Helvetica';
+	font-weight: bolder;
+	padding-top: 200px;
+	letter-spacing: 5px;
+}*/
 
 /* ================ MEDIA QUERIES ================*/
 /* Scroll Arrow */
@@ -429,7 +474,7 @@
 	}
 }
 
-/* Autotrack Overview Content */
+/* Overview Content */
 @media screen and (max-width: 1199px) {
 	#autotrack-project .project-title h1 {
 		font-size: 4em;
@@ -533,6 +578,16 @@
 	#bamazon-project .project-title {
 		width: 730px;
 	}
+
+	#hangman-project .project-title h1 {
+		letter-spacing: 50px;
+		padding-left: 50px;
+		font-size: 4.5em;
+	}
+
+	#hangman-project .project-title {
+		width: 730px;
+	}
 }
 
 @media screen and (max-width: 850px) {
@@ -544,6 +599,10 @@
 
 	#soundscout-project .project-title {
 		width: 650px;
+	}
+
+	#hangman-project .project-overview {
+		padding-top: 15%;
 	}
 }
 
@@ -570,6 +629,14 @@
 	}
 
 	#bamazon-project .project-title {
+		width: 650px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 3.7em;
+	}
+
+	#hangman-project .project-title {
 		width: 650px;
 	}
 }
@@ -622,6 +689,15 @@
 	#bamazon-project .project-title {
 		width: 600px;
 	}
+
+	#hangman-project .project-title h1 {
+		letter-spacing: 43px;
+		padding-left: 43px;
+	}
+
+	#hangman-project .project-title {
+		width: 600px;
+	}
 }
 
 @media screen and (max-width: 685px) {
@@ -662,6 +738,16 @@
 	}
 
 	#bamazon-project .project-title {
+		width: 530px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 3em;
+		letter-spacing: 40px;
+		padding-left: 40px;
+	}
+
+	#hangman-project .project-title {
 		width: 530px;
 	}
 }
@@ -721,6 +807,20 @@
 
 	#bamazon-project .project-title {
 		width: 470px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 2.5em;
+		letter-spacing: 37px;
+		padding-left: 37px;
+	}
+
+	#hangman-project .project-title {
+		width: 470px;
+	}
+
+	#hangman-project .project-overview {
+		padding-top: 20%;
 	}
 }
 
@@ -791,6 +891,16 @@
 	}
 
 	#bamazon-project .project-title {
+		width: 360px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 2.3em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#hangman-project .project-title {
 		width: 360px;
 	}
 }
@@ -867,6 +977,18 @@
 
 	#bamazon-project .project-title {
 		width: 320px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 1.7em;
+	}
+
+	#hangman-project .project-title {
+		width: 320px;
+	}
+
+	#hangman-project .project-overview {
+		padding-top: 30%;
 	}
 }
 
@@ -947,6 +1069,20 @@
 
 	#bamazon-project .project-title {
 		width: 260px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 1.3em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#hangman-project .project-title {
+		width: 260px;
+	}
+
+	#hangman-project .project-overview {
+		padding-top: 40%;
 	}
 }
 
