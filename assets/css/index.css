@@ -538,6 +538,7 @@ button.navbar-toggle {
 @media screen and (max-width: 425px) {
 	.fly-in-text.no-show li:nth-child(1){ transform: translateX(0px) translateY(-100px); }
 	.fly-in-text.no-show li:nth-child(3){ transform: translateX(50px) translateY(160px); }
+	.fly-in-text.no-show li:nth-child(5){ transform: translateX(-100px) translateY(200px); }
 }
 
 @media screen and (max-width: 435px) {
