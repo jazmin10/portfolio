@@ -1,7 +1,7 @@
 /* ================ OVERALL STYLING ================*/
 
 .content {
-	/*display: none;*/
+	display: none;
 }
 
 /* Project Overview */
@@ -399,25 +399,21 @@
 }
 
 /* Image */
-/*#bamazon-project .image-content {
-	background: url("../images/bamazon-background2.png");
-	background-size: 100%;
+#hangman-project .image-content {
+	background: url("../images/hangman-background.png");
 }
 
-#bamazon-project .image-content div {
-	height: 100%;
-	background: rgba(0, 0, 0, 0.67);
-}
-
-#bamazon-logo {
+#hangman-logo {
+	font-family: 'Permanent Marker', cursive;
+	color: #ffffff;
+	text-shadow: 3px 3px #a94442;
 	font-size: 5em;
-	margin: 0;
-	color: #20b2aa;
-	font-family: 'Arial', 'Helvetica';
-	font-weight: bolder;
-	padding-top: 200px;
-	letter-spacing: 5px;
-}*/
+	padding: 120px 0px 10px 0px;
+}
+
+#hangman-project .image button {
+	font-weight: 800;
+}
 
 /* ================ MEDIA QUERIES ================*/
 /* Scroll Arrow */
@@ -1409,3 +1405,42 @@
 	}
 }
 
+/* Hangman */
+@media screen and (max-width: 1400px) {
+	#hangman-logo {
+		padding-top: 140px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	#hangman-logo {
+		padding-top: 160px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#hangman-logo {
+		padding-top: 100px;
+	}
+
+	#hangman-project .image a {
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#hangman-logo {
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#hangman-logo {
+		padding-top: 50px;
+		font-size: 3em;
+	}
+
+	#hangman-project .image a {
+		margin-bottom: 50px;
+	}
+}
