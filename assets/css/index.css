@@ -535,7 +535,23 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (min-width: 412px) and (max-width: 414px) {
+@media screen and (max-width: 425px) {
+	.fly-in-text.no-show li:nth-child(1){ transform: translateX(0px) translateY(-100px); }
+	.fly-in-text.no-show li:nth-child(3){ transform: translateX(50px) translateY(160px); }
+}
+
+@media screen and (max-width: 435px) {
+	.fly-in-text {
+		transform: translateX(14%) translateY(-50%);
+	}
+
+	.fly-in-text li {
+		margin-right: 7px;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
 	.fly-in-text {
 		transform: translateX(10%) translateY(-50%);
 	}
