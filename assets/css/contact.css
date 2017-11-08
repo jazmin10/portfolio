@@ -1,0 +1,154 @@
+.container .title {
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 900px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.container .title h1 {
+	color: #ffffff;
+	font-family: 'Lato', Open Sans, Arial;
+	font-size: 3.5em;
+	letter-spacing: 25px;
+	padding-left: 25px;
+	text-align: center;
+}
+
+.contact-div .contact-info {
+	width: min-content;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+
+.contact-div .contact-info:hover {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #bd9753;
+}
+
+.contact-div .contact-link img {
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.contact-div h4 {
+	font-family: 'Lato', Open Sans, Arial;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+}
+
+
+@media screen and (max-width: 1055px) {
+	.container .title {
+		width: 800px;
+	}
+
+	.container .title h1 {
+		font-size: 3em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container.wrap {
+		margin-top: 15%;
+	}
+
+	.container .title {
+		width: 680px;
+	}
+
+	.container .title h1 {
+		font-size: 2.5em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	.container .title {
+		width: 600px;
+		margin-bottom: 75px;
+	}
+
+	.container .title h1 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 715px) {
+	.container .title {
+		width: 530px;
+	}
+
+	.container .title h1 {
+		letter-spacing: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.container .title {
+		width: 480px;
+	}
+
+	.container .title h1 {
+		font-size: 1.7em;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.container .title {
+		width: 400px;
+	}
+
+	.container .title h1 {
+		font-size: 1.5em;
+		letter-spacing: 12px;
+		padding-left: 12px;
+	}
+}
+
+@media screen and (max-width: 485px) {
+	.container .title {
+		width: 370px;
+	}
+
+	.container .title h1 {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (max-width: 485px) {
+	.container .title {
+		width: 330px;
+	}
+
+	.container .title h1 {
+		letter-spacing: 10px;
+		padding-left: 10px;
+	}
+
+	.contact-div .contact-link img {
+		width: 150px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.container .title {
+		width: 260px;
+	}
+
+	.container .title h1 {
+		font-size: 1em;
+		letter-spacing: 7px;
+		padding-left: 7px;
+	}
+}
+
