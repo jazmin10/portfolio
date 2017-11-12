@@ -8,6 +8,7 @@ $(document).ready(function(){
 	// Fades in text after fly-in text finishes
 	function fadeIn(){
 		$(".fade-in").fadeIn(7000);
+		$("#dev-title").css("color", "#bd9753");
 	}
 
 	// Checks the coordinates of the navbar
@@ -69,6 +70,7 @@ $(document).ready(function(){
 	// Initial value for scroll arrow
 	var bounceValue = false;
 
+	// Main processes
 	setTimeout(intro, 500);
 	setTimeout(fadeIn, 3000);
 	setTimeout(scrollFadeIn, 7000);
