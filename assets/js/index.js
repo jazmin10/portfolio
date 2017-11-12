@@ -8,6 +8,8 @@ $(document).ready(function(){
 	// Fades in text after fly-in text finishes
 	function fadeIn(){
 		$(".fade-in").fadeIn(7000);
+		// To avoid "Web Developer" title appearing before hand, it will start with color
+		// black and the golden color will be added during fade in
 		$("#dev-title").css("color", "#bd9753");
 	}
 
