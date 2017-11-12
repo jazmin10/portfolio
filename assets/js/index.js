@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 	setTimeout(intro, 500);
 	setTimeout(fadeIn, 3000);
-	setTimeout(scrollFadeIn, 9000);
+	setTimeout(scrollFadeIn, 7000);
 	setInterval(bounce, 500);
 	$(window).scroll(collapseNavbar);
 	
