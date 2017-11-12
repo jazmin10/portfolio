@@ -109,6 +109,12 @@ button.navbar-toggle {
 }
 
 /* Navbar */
+@media screen and (min-width: 1700px) {
+	.nav.navbar-nav {
+		font-size: 1.5em;
+	}
+}
+
 @media screen and (max-width: 1045px) {
 	.navbar-default .navbar-nav li a {
 		/*letter-spacing: 5px;*/

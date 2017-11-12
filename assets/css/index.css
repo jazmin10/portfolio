@@ -330,6 +330,12 @@ button.navbar-toggle {
 /* ================ MEDIA QUERIES ================*/
 
 /* Fly-in Text */
+@media screen and (min-width: 1700px) {
+	.nav.navbar-nav {
+		font-size: 1.5em;
+	}
+}
+
 @media screen and (max-width: 1355px) {
 	.fly-in-text {
 		transform: translateX(18%) translateY(-50%);
