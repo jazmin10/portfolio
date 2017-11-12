@@ -1,15 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="eng-us">
 <head>
 	<title>Estrada, J</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="./assets/vendor/font-awesome/css/font-awesome.min.css">
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap: Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="assets/js/about.js" type="text/javascript"></script>
+
+	<!-- Bootstrap: Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Navbar styling -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+  <link rel="stylesheet" href="assets/css/about.css" type="text/css">
 </head>
 
 <body>
-	<div>ABOUT PAGE</div>
+	<nav class="navbar navbar-default fade-in navbar-fixed-top">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button id="toggle-menu" value="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+        <li><a id="active-tab" href="./about.html">ABOUT</a></li>
+        <li><a href="./portfolio.html">PORTFOLIO</a></li>
+        <li id="je-logo-li"><a href="./index.html"><img id="je-logo" src="./assets/images/je-logo-tan.png"/></a></li>
+        <li><a href="./skills.html">SKILLS</a></li>
+        <li><a href="./contact.html">CONTACT</a></li> 
+      </ul>
+  	</div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="content full-page">
+		<div class="intro-line">
+      <div>
+			 <h1>A SIMPLE MIND CREATING...</h1>
+      </div>
+			<img id="scroll-arrow" src="./assets/images/scroll.png">
+		</div>
+	</div>
+
+	<div class="content full-page" id="about-me">
+    <div class="container">
+      <div class="welcome-title">
+        <h2>Hi, welcome to my site!</h2>
+      </div>
+
+      <div class="about-me-info">
+    		<p>Yes, that's me. I am a web developer with a simple mind creating full stack websites. As a driven professional, my effectual communication and analytical thinking has led me to become adept at working with diverse teams to implement projects.</p>
+
+        <p>After years working for organizations assisting low-income families, I decided to learn how to code because unlike other fields, when you are done coding you can display your results. You can interact with your application. Others can interact with your application! There is a joy when arriving to a coherent solution that can impact many! As a full stack web developer, I look forward to bringing my experience and passion to a full time role.</p>
+
+        <p>I recently completed UT-Austin's Full-Stack Web Development Certification from their Center for Professional Education. My undergrad consists of a Bachelor's in Mathematics from the University of Texas at Austin.</p>
+
+        <p>In my off-time, you will likely find me watching a soccer match and every so often playing a game. I am also a fan of movie nights with popcorn. My two all-time favorite movie franchises are Star Wars and Harry Potter.</p>
+      </div>
+    </div>
+	</div>
 
 </body>
-
 </html>

@@ -44,17 +44,39 @@ $(document).ready(function(){
 
 	// Fades in page content
 	function contentFadeIn(){
-		$(".container").fadeIn(4000);
+		$(".full-page").fadeIn(4000);
+		$("#scroll-arrow").css("display", "none");
 	}
 
 	// Fades in "JE" logo in navbar
 	function logoFadeIn(){
 		$('#je-logo').css('visibility','visible').hide().fadeIn(3000);
 	}
+
+	function arrowFadeIn(){
+		$("#scroll-arrow").fadeIn(3000);
+	}
+
+	function bounce(){
+		// If bounceValue is false, move image up
+		if (bounceValue === false){
+			$("#scroll-arrow").css("bottom", "3.3%");
+			bounceValue = true;
+		}
+		// Otherwise, move image down to its original place
+		else {
+			$("#scroll-arrow").css("bottom", "3%");
+			bounceValue	= false;
+		}
+	}
+	
+	var bounceValue = false; 
 	
 	$(window).scroll(collapseNavbar);
 	navbarFadeIn();
 	setTimeout(logoFadeIn, 1500);
 	setTimeout(contentFadeIn, 3000);
+	setInterval(arrowFadeIn, 4000);
+	setInterval(bounce, 500);
 	
 });
