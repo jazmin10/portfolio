@@ -225,20 +225,20 @@
 	}
 
 	.intro-line div {
-		width: 100%;
-		padding-top: 40%;
+		width: 350px;
+		padding-top: 60%;
 	}
 }
 
-/*@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 	.intro-line div {
 		letter-spacing: 5px;
-		width: 300px;
-		padding-top: 70%;
+		width: 100%;
+		padding-top: 50%;
 	}
 }
 
-@media screen and (max-width: 330px) {
+/*@media screen and (max-width: 330px) {
 	.intro-line h1 {
 		font-size: .6em;
 	}
