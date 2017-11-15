@@ -54,15 +54,17 @@ $(document).ready(function(){
 	}
 
 	function bounce(){
+		var bounceValue = $(".scroll-arrow").attr("value");
+
 		// If bounceValue is false, move image up
-		if (bounceValue === false){
+		if (bounceValue === "false"){
 			$(".scroll-arrow").css("bottom", "3.3%");
-			bounceValue = true;
+			$(".scroll-arrow").attr("value", "true");
 		}
 		// Otherwise, move image down to its original place
 		else {
 			$(".scroll-arrow").css("bottom", "3%");
-			bounceValue	= false;
+			$(".scroll-arrow").attr("value", "false");
 		}
 	}
 
@@ -70,7 +72,7 @@ $(document).ready(function(){
 		$(".scroll-arrow").fadeIn(3000);
 	}
 
-	var bounceValue = false;
+	// var bounceValue = false;
 	
 	$(window).scroll(collapseNavbar);
 	navbarFadeIn();

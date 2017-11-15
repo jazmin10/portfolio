@@ -57,20 +57,20 @@ $(document).ready(function(){
 
 	// Creates bounces effect for scroll arrow (called every half second)
 	function bounce(){
+
+		var bounceValue = $("#main-scroll").attr("value");
+		
 		// If bounceValue is false, move image up
-		if (bounceValue === false){
+		if (bounceValue === "false"){
 			$("#main-scroll").css("bottom", "3.3%");
-			bounceValue = true;
+			$("#main-scroll").attr("value", "true");
 		}
 		// Otherwise, move image down to its original place
 		else {
 			$("#main-scroll").css("bottom", "3%");
-			bounceValue	= false;
+			$("#main-scroll").attr("value", "false");
 		}
 	}
-
-	// Initial value for scroll arrow
-	var bounceValue = false;
 
 	// Main processes
 	setTimeout(intro, 500);
