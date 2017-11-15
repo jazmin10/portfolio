@@ -1,9 +1,5 @@
-.content {
-	/*display: none;*/
-}
-
 .full-page {
-	display: none;
+	/*display: none;*/
 	height: 100vh;
 }
 
@@ -20,8 +16,8 @@
 	color: #ffffff;
 	border-bottom: solid;
 	border-bottom-color: #bd9753;
-	letter-spacing: 25px;
-	padding-left: 25px;
+	letter-spacing: 20px;
+	padding-left: 20px;
 	font-family: 'Lato', Open Sans, Arial;
 	width: 1200px;
 }
@@ -87,167 +83,158 @@
 
 /* About Me Intro Line */
 @media screen and (max-width: 1350px) {
-	.intro-line div {
-		letter-spacing: 23px;
-		padding-left: 23px;
-		width: 1150px;
-	}
-}
-
-@media screen and (max-width: 1300px) {
 	.intro-line h1 {
 		font-size: 2.2em;
 	}
 
 	.intro-line div {
-		width: 1080px;
+		width: 1090px;
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1210px) {
+	.full-page .intro-line {
+		padding-top: 15%;
+	}
+
+	.intro-line div {
+		letter-spacing: 16px;
+		padding-left: 16px;
+		width: 980px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
 	.intro-line h1 {
 		font-size: 2em;
 	}
 
 	.intro-line div {
-		width: 1030px;
-	}
-
-	.intro-line div {
-		padding-top: 12%;
-	}
-}
-
-@media screen and (max-width: 1150px) {
-	.intro-line h1 {
-		font-size: 1.8em;
-		font-weight: bolder;
-	}
-
-	.intro-line div {
-		width: 950px;
-	}
-
-	.intro-line div {
-		padding-top: 15%;
+		width: 920px;
 	}
 }
 
 @media screen and (max-width: 1050px) {
+	.full-page .intro-line {
+		padding-top: 17%;
+	}
+
 	.intro-line h1 {
-		font-size: 1.6em;
+		font-size: 1.7em;
 	}
 
 	.intro-line div {
-		width: 850px;
-		letter-spacing: 20px;
-		padding-left: 20px;
-
-		padding-top: 18%;
+		letter-spacing: 14px;
+		padding-left: 14px;
+		width: 830px;
 	}
 }
 
-@media screen and (max-width: 925px) {
-	.intro-line div {
-		width: 800px;
-		letter-spacing: 18px;
-		padding-left: 18px;
+@media screen and (max-width: 950px) {
+	.full-page .intro-line {
+		padding-top: 20%;
+	}
+
+	.intro-line h1 {
+		font-weight: bolder;
 	}
 
 	.intro-line div {
-		padding-top: 22%;
+		letter-spacing: 12px;
+		padding-left: 12px;
+		width: 760px;
 	}
 }
 
 @media screen and (max-width: 875px) {
+	.full-page .intro-line {
+		padding-top: 23%;
+	}
+
 	.intro-line h1 {
 		font-size: 1.4em;
 	}
 
 	.intro-line div {
-		width: 750px;
-		padding-top: 24%;
-	}
-}
-
-@media screen and (max-width: 815px) {
-	.intro-line div {
-		letter-spacing: 15px;
-		padding-left: 15px;
 		width: 690px;
 	}
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 800px) {
+	.intro-line div {
+		letter-spacing: 10px;
+		padding-left: 10px;
+		width: 630px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.full-page .intro-line {
+		padding-top: 30%;
+	}
+
 	.intro-line h1 {
 		font-size: 1.2em;
 	}
 
 	.intro-line div {
-		letter-spacing: 13px;
-		padding-left: 13px;
-		width: 600px;
-		padding-top: 30%;
+		width: 580px;
 	}
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 685px) {
 	.intro-line div {
-		letter-spacing: 10px;
-		padding-left: 10px;
-		width: 520px;
-		padding-top: 35%;
+		letter-spacing: 7px;
+		padding-left: 7px;
+		width: 500px;
 	}
 }
 
 @media screen and (max-width: 575px) {
+	.full-page .intro-line {
+		padding-top: 37%;
+	}
+
 	.intro-line h1 {
 		font-size: 1em;
 	}
 
 	.intro-line div {
-		width: 480px;
-		padding-top: 40%;
+		width: 450px;
 	}
 }
 
 @media screen and (max-width: 525px) {
 	.intro-line div {
-		letter-spacing: 7px;
-		padding-left: 7px;
-		width: 400px;
-		padding-top: 50%;
+		letter-spacing: 5px;
+		padding-left: 5px;
+		width: 390px;
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
+	.full-page .intro-line {
+		padding-top: 50%;
+	}
+
 	.intro-line h1 {
 		font-size: .8em;
 	}
 
 	.intro-line div {
-		width: 350px;
-		padding-top: 40%;
+		letter-spacing: 4px;
+		padding-left: 4px;
+		width: 320px;
 	}
 }
 
-@media screen and (max-width: 375px) {
-	.intro-line div {
-		letter-spacing: 3px;
-		width: 90%;
-		padding-top: 30%;
-	}
-}
-
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 365px) {
 	.intro-line h1 {
 		font-size: .6em;
 	}
 
 	.intro-line div {
-		letter-spacing: 5px;
-		width: 250px;
-		padding-top: 80%;
+		width: 260px;
 	}
 }
 
