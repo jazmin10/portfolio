@@ -150,16 +150,10 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 791px) {
 	.navbar-default .navbar-nav li a {
 		letter-spacing: 3px;
 		font-size: 85%;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	#active-tab	{
-
 	}
 }
 
