@@ -1,5 +1,6 @@
-/* ================ OVERALL STYLING ================*/
+/* FEATURED WORK */
 
+/* ================ OVERALL STYLING ================*/
 .content {
 	display: none;
 }
@@ -70,6 +71,7 @@
 	letter-spacing: 1px;
 }
 
+/* Project's GitHub Button */
 .project-info .github-btn {
 	font-family: 'Lato', Open Sans, Arial;
 	letter-spacing: 2px;
@@ -116,6 +118,7 @@
 	margin-bottom: 1%;
 }
 
+/* Project's Image */
 .project-info .image {
 	text-align: center;
 }
@@ -125,6 +128,7 @@
 	height: 100%;
 }
 
+/* Project's View Project Button */
 .project-info .view-proj-link {
 	display: inline-block;
 	width: min-content;
@@ -285,6 +289,8 @@
 }
 
 /* ================ SOCCER WEBSCRAPPER ================*/
+
+/* Overview */
 #webscraper-project .project-title h1 {
 	letter-spacing: 50px;
 	padding-left: 50px;
@@ -321,7 +327,6 @@
 	letter-spacing: 1px;
 	margin-top: 200px;
 	margin-bottom: 50px;
-
 }
 
 #webscraper-logo span {
@@ -330,6 +335,8 @@
 }
 
 /* ================ BAMAZON ================*/
+
+/* Overview */
 #bamazon-project .project-title h1 {
 	letter-spacing: 60px;
 	padding-left: 60px;
@@ -375,6 +382,8 @@
 }
 
 /* ================ HANGMAN ================*/
+
+/* Overview */
 #hangman-project .project-title h1 {
 	letter-spacing: 60px;
 	padding-left: 60px;
@@ -451,7 +460,6 @@
 	.project-info .contribution-title {
 		width: 370px;
 	}
-
 }
 
 @media screen and (max-width: 450px){
@@ -1121,7 +1129,6 @@
 	#codehive-logo {
 		width: 450px;
 	}
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -1239,7 +1246,6 @@
 @media screen and (max-width: 767px) {
 	#soundscout-logo {
 		width: 500px;
-		/*padding-top: 100px;*/
 	}
 }
 
@@ -1278,7 +1284,6 @@
 	#webscraper-logo {
 		font-size: 4.5em;
 		margin-bottom: 40px;
-
 	}
 
 	#webscraper-logo span {
@@ -1290,7 +1295,6 @@
 	#webscraper-logo {
 		font-size: 4em;
 		margin-top: 220px;
-
 	}
 
 	#webscraper-logo span {

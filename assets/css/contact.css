@@ -1,3 +1,6 @@
+/* CONTACT PAGE STYLESHEET */
+
+/* ================ TITLE ================*/
 .container .title {
 	border-bottom: solid;
 	border-bottom-color: #bd9753;
@@ -15,6 +18,7 @@
 	text-align: center;
 }
 
+/* ================ CONTACT INFORMATION ================*/
 .contact-div .contact-info {
 	width: min-content;
 	margin: 0 auto;
@@ -41,7 +45,8 @@
 	letter-spacing: 5px;
 }
 
-
+/* ================ MEDIA QUERIES ================*/
+/* Title and Images*/
 @media screen and (max-width: 1055px) {
 	.container .title {
 		width: 800px;

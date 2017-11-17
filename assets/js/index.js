@@ -1,3 +1,5 @@
+// HOMEPAGE SCRIPT
+
 $(document).ready(function(){
 
 	// Removes opacity from fly in text
@@ -5,35 +7,40 @@ $(document).ready(function(){
 		$(".fly-in-text").removeClass("no-show");
 	}
 
-	// Fades in text after fly-in text finishes
+	// Fades in content (navbar and web dev title) after fly-in text finishes
 	function fadeIn(){
 		$(".fade-in").fadeIn(7000);
+
 		// To avoid "Web Developer" title appearing before hand, it will start with color
-		// black and the golden color will be added during fade in
+		// black and the golden color will be here
 		$("#dev-title").css("color", "#bd9753");
 	}
 
 	// Checks the coordinates of the navbar
 	function collapseNavbar() {
-		// If the coordinates is greater than 100, the navbar collapses into mobile display
+
+		// If the coordinates are greater than 100, the navbar collapses into mobile display
     if ($(".navbar").offset().top > 100) {
         $(".navbar-header").css("float", "none");
         $(".navbar-toggle").css("display", "block");
         $(".navbar-nav").css("float", "none!important");
         $(".navbar-nav>li").css("float", "none");
-        $("#bs-example-navbar-collapse-1").addClass("scroll-navbar");
+        $("#navbar-collapse-toggle").addClass("scroll-navbar");
+		}
    	// Otherwise, it displays horizontal non-mobile view
-    } else {
+    else {
         $(".navbar-header").removeAttr("style");
         $(".navbar-toggle").removeAttr("style");
         $(".navbar-nav").removeAttr("style");
         $(".navbar-nav>li").removeAttr("style");
-        $("#bs-example-navbar-collapse-1").removeClass("scroll-navbar");
+        $("#navbar-collapse-toggle").removeClass("scroll-navbar");
     }
 	}
 
 	// Changes background color from transparent to black when navbar button is toggled
 	$("#toggle-menu").on("click", function(){
+
+		// Grabs boolean value from #toggle-menu
 		var toggleValue = $("#toggle-menu").attr("value");
 
 		// If the value is true (the menu is expaned), change background to transparent and turn
@@ -50,14 +57,14 @@ $(document).ready(function(){
 		}
 	});
 
-	// Fades in scroll arrow after navbar, flyin text, and name fades in
+	// Fades in scroll arrow after navbar, fly-in text, and name fades in
 	function scrollFadeIn(){
 		$("#main-scroll").fadeIn(3000);
 	}
 
 	// Creates bounces effect for scroll arrow (called every half second)
 	function bounce(){
-
+		// Grabs boolean value of #main-scroll
 		var bounceValue = $("#main-scroll").attr("value");
 		
 		// If bounceValue is false, move image up
@@ -65,7 +72,7 @@ $(document).ready(function(){
 			$("#main-scroll").css("bottom", "3.3%");
 			$("#main-scroll").attr("value", "true");
 		}
-		// Otherwise, move image down to its original place
+		// Otherwise, move image down, to its original place
 		else {
 			$("#main-scroll").css("bottom", "3%");
 			$("#main-scroll").attr("value", "false");

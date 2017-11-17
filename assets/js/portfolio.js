@@ -1,3 +1,5 @@
+// PORTFOLIO PAGE
+
 $(document).ready(function(){
 
 	// Checks the coordinates of the navbar
@@ -8,19 +10,22 @@ $(document).ready(function(){
         $(".navbar-toggle").css("display", "block");
         $(".navbar-nav").css("float", "none!important");
         $(".navbar-nav>li").css("float", "none");
-        $("#bs-example-navbar-collapse-1").addClass("scroll-navbar");
+        $("#navbar-collapse-toggle").addClass("scroll-navbar");
+    }
    	// Otherwise, it displays horizontal non-mobile view
-    } else {
+    else {
         $(".navbar-header").removeAttr("style");
         $(".navbar-toggle").removeAttr("style");
         $(".navbar-nav").removeAttr("style");
         $(".navbar-nav>li").removeAttr("style");
-        $("#bs-example-navbar-collapse-1").removeClass("scroll-navbar");
+        $("#navbar-collapse-toggle").removeClass("scroll-navbar");
     }
 	}
 
 	// Changes background color from transparent to black when navbar button is toggled
 	$("#toggle-menu").on("click", function(){
+
+		// Grab boolean value from #toggle-menu
 		var toggleValue = $("#toggle-menu").attr("value");
 
 		// If the value is true (the menu is expaned), change background to transparent and turn
@@ -52,6 +57,7 @@ $(document).ready(function(){
 		$('#je-logo').css('visibility','visible').hide().fadeIn(3000);
 	}
 
+	// Main Processes
 	$(window).scroll(collapseNavbar);
 	navbarFadeIn();
 	setTimeout(logoFadeIn, 1500);

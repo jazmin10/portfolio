@@ -1,8 +1,13 @@
+/* ABOUT PAGE STYLESHEET */
+
+/* ================ OVERALL STYLING ================*/
 .full-page {
 	display: none;
 	height: 100vh;
+	overflow: hidden;
 }
 
+/* ================ INTRO TAGLINE ================*/
 .full-page .intro-line {
 	padding-top: 12%;
 	text-align: center;
@@ -29,10 +34,7 @@
 	bottom: 3%;
 }
 
-.full-page {
-	overflow: hidden;
-}
-
+/* ================ BIO ================*/
 #about-me {
 	padding: 5%;
 	overflow: initial;
@@ -81,7 +83,7 @@
 	}
 }
 
-/* About Me Intro Line */
+/* Intro Tagline */
 @media screen and (max-width: 1350px) {
 	.intro-line h1 {
 		font-size: 2.2em;
@@ -238,7 +240,7 @@
 	}
 }
 
-/* Contact Section */
+/* Bio */
 @media screen and (max-width: 1194px) {
 	#about-me .about-me-info {
 		font-size: 1.3em;

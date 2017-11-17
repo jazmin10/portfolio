@@ -1,4 +1,6 @@
-/* ================ PROJECTS DIV ================*/
+/* PORTFOLIO PAGE */
+
+/* ================ OVERALL STYLING ================*/
 .project {
 	border-radius: 10px;
 	margin-bottom: 3%;
@@ -16,6 +18,7 @@
     transform: scale(1.1);
 }
 
+/* ================ VIEW PROJECTS BUTTON ================*/
 .view-btn {
 	background: transparent;
 	color: #ffffff;
@@ -35,11 +38,9 @@
 
 /* ================ AUTOTRACK DIV ================*/
 #autotrack-project {
-	/*margin-top: 15%;*/
 	border: solid;
 	border-color: #00bfff;
 	box-shadow: 0px 0px 15px #00ffff;
-	/*height: 200px;*/
 }
 
 #autotrack-logo {
@@ -55,7 +56,6 @@
 }
 
 #codehive-project .logo {
-	/*margin-top: 2%;*/
 	margin-bottom: 2%;
 }
 
@@ -105,7 +105,6 @@
 }
 
 #webscraper-project .logo {
-	/*margin-top: 2%;*/
 	margin-bottom: 3%;
 }
 
@@ -143,21 +142,20 @@
 /* ================ MEDIA QUERIES ================*/
 
 /* Container Wrap */
-
 @media screen and (min-width: 768px) and (max-width: 950px) {
 	.container.wrap {
 		margin-top: 15%;
 	}
 }
 
-/* Project Divs */
-@media screen and (max-width: 991px){
+/* Featured Work Divs */
+@media screen and (max-width: 991px) {
 	.project {
 		height: 180px;
 	}
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 	.project {
 		height: 140px;
 	}
@@ -175,7 +173,7 @@
 	}
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 	#autotrack-logo {
 		width: 80%;
 	}
@@ -191,7 +189,7 @@
 	}
 }
 
-@media screen and (max-width: 440px){
+@media screen and (max-width: 440px) {
 	#autotrack-logo {
 		margin-bottom: 3%;
 	}
@@ -203,7 +201,7 @@
 
 
 /* Grow Effect on Project Divs */
-@media screen and (max-width: 1270px){
+@media screen and (max-width: 1270px) {
 	.grow:hover {
 	    -webkit-transform: scale(1.1);
 	    -ms-transform: scale(1.1);
@@ -211,19 +209,11 @@
 	}
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 	.grow:hover {
 	    -webkit-transform: scale(1.1);
 	    -ms-transform: scale(1.1);
 	    transform: scale(1.03);
 	}
 }
-
-
-
-
-
-
-
-
 

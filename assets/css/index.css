@@ -1,4 +1,4 @@
-/* Potential gold color: #bd9753 */
+/* HOMEPAGE STYLESHEET */
 
 /* ================ OVERALL STYLING ================*/
 * {
@@ -96,7 +96,6 @@ button.navbar-toggle {
 	width: 100%;
 }
 
-
 /* ================ FLY-IN TEXT ================*/
 .fly-in-text {
 	color: #ffffff;
@@ -182,7 +181,6 @@ button.navbar-toggle {
 }
 
 /* ================ CODEHIVE DIV ================*/
-
 #codehive-project {
 	background: url("../images/hive-background.svg") no-repeat;
 	padding: 10%;
@@ -196,8 +194,6 @@ button.navbar-toggle {
 	text-align: center;
 	font-family: arial;
 	font-weight: bold;
-
-
 	display: block;
 	background: #000000;
 	margin: 0 auto;
@@ -209,9 +205,7 @@ button.navbar-toggle {
 	margin-top: 7%;
 }
 
-
 /* ================ SOUNDSCOUT DIV ================*/
-
 #soundscout-project {
 	background: url("../images/soundscout-background.jpg") no-repeat;
 	background-size: 100%;
@@ -233,6 +227,7 @@ button.navbar-toggle {
 .details-link {
 	text-align: center;
 }
+
 .view-btn {
 	background: transparent;
 	margin: 0 auto;
@@ -261,6 +256,7 @@ button.navbar-toggle {
 	text-decoration: none;
 }
 
+/* ================ SCROLL ARROW ================*/
 #main-scroll {
 	display: none;
 	position: absolute;
@@ -282,6 +278,7 @@ button.navbar-toggle {
 	width: 100%;
 }
 
+/* Title */
 #contact-title {
 	width: 600px;
 	margin: 0 auto;
@@ -299,6 +296,7 @@ button.navbar-toggle {
 	padding: 5% 0 2% 15px;
 }
 
+/* Contact information */
 .col-md-12.content {
 	letter-spacing: 5px;
 	font-family: 'Lato', Open Sans, Arial;
@@ -329,7 +327,7 @@ button.navbar-toggle {
 
 /* ================ MEDIA QUERIES ================*/
 
-/* Fly-in Text */
+/* Navbar, Fly-in Text, Web Developer Title, Scroll Arrow */
 @media screen and (min-width: 1700px) {
 	.nav.navbar-nav {
 		font-size: 1.5em;
@@ -358,7 +356,6 @@ button.navbar-toggle {
 
 @media screen and (max-width: 1045px) {
 	.navbar-default .navbar-nav li a {
-		/*letter-spacing: 5px;*/
 		font-size: 85%;
 	}
 
@@ -421,7 +418,6 @@ button.navbar-toggle {
 	#dev-title {
 		transform: translateX(45%);
 	}
-
 }
 
 @media screen and (max-width: 670px) {
@@ -465,7 +461,6 @@ button.navbar-toggle {
 		font-size: 1em;
 		transform: translateX(57%);
 	}
-
 }
 
 @media screen and (max-width: 555px) {
@@ -555,7 +550,6 @@ button.navbar-toggle {
 	.fly-in-text li {
 		margin-right: 7px;
 	}
-
 }
 
 @media screen and (max-width: 414px) {
@@ -600,7 +594,6 @@ button.navbar-toggle {
 	}
 
 	#je-logo-li {
-		/*width: 13%;*/
 		margin-right: 10px;
 	}
 
@@ -671,7 +664,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (min-width: 590px) and (max-width: 749px){
+@media screen and (min-width: 590px) and (max-width: 749px) {
 	#autotrack-logo {
 		margin-top: 25%;
 	}
@@ -685,7 +678,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (min-width: 500px) and (max-width: 589px){
+@media screen and (min-width: 500px) and (max-width: 589px) {
 	#autotrack-logo {
 		margin-top: 35%;
 	}
@@ -699,7 +692,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (min-width: 450px) and (max-width: 499px){
+@media screen and (min-width: 450px) and (max-width: 499px) {
 	#autotrack-logo {
 		margin-top: 45%;
 	}
@@ -714,7 +707,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 449px){
+@media screen and (max-width: 449px) {
 	#autotrack-logo {
 		margin-top: 50%;
 	}
@@ -729,7 +722,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 	#autotrack-logo {
 		margin-top: 60%;
 	}
@@ -745,7 +738,7 @@ button.navbar-toggle {
 }
 
 /* Contact Section */
-@media screen and (max-width: 1158px){
+@media screen and (max-width: 1158px) {
 	#contact-title h4 {
 		font-size: 1.7em;
 	}
@@ -756,7 +749,7 @@ button.navbar-toggle {
 
 }
 
-@media screen and (max-width: 1070px){
+@media screen and (max-width: 1070px) {
 	#contact-title {
 		width: 500px;
 		margin-bottom: 15%;
@@ -772,7 +765,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 784px){
+@media screen and (max-width: 784px) {
 	#contact-section {
 		padding-top: 10%;
 	}
@@ -794,7 +787,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 657px){
+@media screen and (max-width: 657px) {
 	#contact-section {
 		padding-top: 20%;
 	}
@@ -804,7 +797,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 580px) {
 	#contact-title {
 		margin-bottom: 15%;
 	}
@@ -823,10 +816,11 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 501px){
+@media screen and (max-width: 501px) {
 	#contact-title {
 		width: 340px;
 	}
+
 	#contact-title h4 {
 		font-size: 1.3em;
 		letter-spacing: 8px;
@@ -841,17 +835,18 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 465px){
+@media screen and (max-width: 465px) {
 	#contact-title {
 		width: 270px;
 	}
+
 	#contact-title h4 {
 		font-size: 1.2em;
 		letter-spacing: 5px;
 	}
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 	#contact-title {
 		margin-bottom: 30%;
 	}
@@ -861,7 +856,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
 	#contact-title {
 		width: 240px;
 	}
@@ -872,7 +867,7 @@ button.navbar-toggle {
 	}
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
 	#contact-title {
 		width: 200px;
 	}
