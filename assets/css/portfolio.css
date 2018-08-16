@@ -84,27 +84,22 @@
 	width: 50%;
 }
 
-/* ================ WEBSCRAPER DIV ================*/
-#webscraper-project {
-	background: url("../images/webscraper-background.jpg") no-repeat;
+/* ================ ARTCILE SCRUBBER DIV ================*/
+#articlescrubber-project {
+	background: url("../images/articlescrubber-background.jpg") no-repeat;
 	background-size: 100%;
 	padding: 0;
+	background-position: center;
 }
 
-#webscraper-logo {
+#articlescrubber-logo {
 	color: #ffffff;
-	font-family: 'Anton', sans-serif;
-	font-size: 5em;
-	letter-spacing: 1px;
-
+	font-family: 'IM Fell English SC', serif;
+	font-size: 3.5em;
+	letter-spacing: 0.8px;
 }
 
-#webscraper-logo span {
-	font-size: .8em;
-	font-family: 'Fjalla One', sans-serif;
-}
-
-#webscraper-project .logo {
+#articlescrubber-project .logo {
 	margin-bottom: 3%;
 }
 
@@ -153,6 +148,10 @@
 	.project {
 		height: 180px;
 	}
+
+	#articlescrubber-logo {
+		font-size: 2.5em;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -160,8 +159,10 @@
 		height: 140px;
 	}
 
-	#webscraper-logo {
-		font-size: 3em;
+	#articlescrubber-logo {
+		font-size: 2em;
+		font-weight: bold;
+		letter-spacing: 2px;
 	}
 
 	#bamazon-logo {
@@ -216,4 +217,5 @@
 	    transform: scale(1.03);
 	}
 }
+
 
