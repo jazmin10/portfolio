@@ -288,16 +288,16 @@
 	padding-top: 200px;
 }
 
-/* ================ SOCCER WEBSCRAPPER ================*/
+/* ================ ARTICLE SCRUBBER ================*/
 
 /* Overview */
-#webscraper-project .project-title h1 {
-	letter-spacing: 50px;
-	padding-left: 50px;
-	font-size: 4.5em;
+#articlescrubber-project .project-title h1 {
+	letter-spacing: 30px;
+	padding-left: 30px;
+	font-size: 4em;
 }
 
-#webscraper-project .project-title {
+#articlescrubber-project .project-title {
 	padding-top: 10%;
 	border-bottom: solid;
 	border-bottom-color: #bd9753;
@@ -307,7 +307,7 @@
 	margin-bottom: 5%;
 }
 
-#webscraper-project .overview {
+#articlescrubber-project .overview {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.7em;
 	letter-spacing: .8px;
@@ -316,22 +316,23 @@
 }
 
 /* Image */
-#webscraper-project .image-content {
-	background: url("../images/turf.jpg") no-repeat;
+#articlescrubber-project .image-content {
+	background: url("../images/articlescrubber-background.jpg") no-repeat;
 }
 
-#webscraper-logo {
+#articlescrubber-project .image-content div {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.43);
+}
+
+#articlescrubber-logo {
 	color: #ffffff;
-	font-family: 'Anton', sans-serif;
-	font-size: 5em;
-	letter-spacing: 1px;
-	margin-top: 200px;
-	margin-bottom: 50px;
-}
-
-#webscraper-logo span {
-	font-size: .8em;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'IM Fell English SC', serif;
+	font-size: 3em;
+	letter-spacing: 3px;
+	margin: 0px;
+	padding-top: 170px;
+	padding-bottom: 30px;
 }
 
 /* ================ BAMAZON ================*/
@@ -496,14 +497,14 @@
 		width: 900px;
 	}
 
-	#webscraper-project .project-title h1 {
-		font-size: 3.5em;
-		letter-spacing: 35px;
-		padding-left: 35px;
+	#articlescrubber-project .project-title h1 {
+		font-size: 3.7em;
+		letter-spacing: 25px;
+		padding-left: 25px;
 	}
 
-	#webscraper-project .project-title {
-		width: 800px;
+	#articlescrubber-project .project-title {
+		width: 930px;
 	}
 }
 
@@ -537,6 +538,14 @@
 	#soundscout-project .project-title {
 		width: 800px;
 	}
+
+	#articlescrubber-project .project-title h1 {
+		font-size: 3em;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 820px;
+	}
 }
 
 @media screen and (max-width: 991px) {
@@ -565,12 +574,14 @@
 		width: 750px;
 	}
 
-	#webscraper-project .project-title h1 {
+	#articlescrubber-project .project-title h1 {
 		font-size: 2.7em;
+		letter-spacing: 20px;
+		padding-left: 20px;
 	}
 
-	#webscraper-project .project-title {
-		width: 700px;
+	#articlescrubber-project .project-title {
+		width: 720px;
 	}
 
 	#bamazon-project .project-title h1 {
@@ -628,6 +639,14 @@
 		width: 650px;
 	}
 
+	#articlescrubber-project .project-title h1 {
+		font-size: 2.3em;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 640px;
+	}
+
 	#bamazon-project .project-title h1 {
 		font-size: 3.7em;
 	}
@@ -675,16 +694,6 @@
 		width: 550px;
 	}
 
-	#webscraper-project .project-title h1 {
-		font-size: 2.3em;
-		letter-spacing: 30px;
-		padding-left: 30px;
-	}
-
-	#webscraper-project .project-title {
-		width: 600px;
-	}
-
 	#bamazon-project .project-title h1 {
 		letter-spacing: 43px;
 		padding-left: 43px;
@@ -721,17 +730,17 @@
 		width: 530px;
 	}
 
-	#webscraper-project .project-title h1 {
+	#articlescrubber-project .project-title h1 {
 		font-size: 2em;
-		letter-spacing: 27px;
-		padding-left: 27px;
+		letter-spacing: 17px;
+		padding-left: 17px;
 	}
 
-	#webscraper-project .project-title {
-		width: 530px;
+	#articlescrubber-project .project-title {
+		width: 550px;
 	}
 
-	#webscraper-project .project-overview {
+	#articlescrubber-project .project-overview {
 		padding-top: 15%;
 	}
 
@@ -786,20 +795,22 @@
 		width: 450px;
 	}
 
-	#webscraper-project .overview {
+	#articlescrubber-project .project-title h1 {
+		font-size: 1.5em;
+		letter-spacing: 15px;
+		padding-left: 15px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 480px;
+	}
+
+	#articlescrubber-project .overview {
+		font-size: 1.4em;
 		padding: 0px 50px;
 	}
 
-	#webscraper-project .project-title h1 {
-		letter-spacing: 25px;
-		padding-left: 25px;
-	}
-
-	#webscraper-project .project-title {
-		width: 500px;
-	}
-
-	#webscraper-project .project-overview {
+	#articlescrubber-project .project-overview {
 		padding-top: 20%;
 	}
 
@@ -850,13 +861,14 @@
 		width: 450px;
 	}
 
-	#webscraper-project .project-title h1 {
-		letter-spacing: 20px;
-		padding-left: 20px;
+	#articlescrubber-project .project-title h1 {
+		/*font-size: 1.3em;*/
+		letter-spacing: 12px;
+		padding-left: 12px;
 	}
 
-	#webscraper-project .project-title {
-		width: 450px;
+	#articlescrubber-project .project-title {
+		width: 420px;
 	}
 }
 
@@ -880,12 +892,8 @@
 		width: 380px;
 	}
 
-	#webscraper-project .project-title h1 {
-		font-size: 1.7em;
-	}
-
-	#webscraper-project .project-title {
-		width: 420px;
+	#articlescrubber-project .project-overview {
+		padding-top: 25%;
 	}
 
 	#bamazon-project .project-title h1 {
@@ -939,18 +947,14 @@
 		width: 360px;
 	}
 
-	#webscraper-project .project-title h1 {
-		font-size: 1.5em;
-		letter-spacing: 17px;
-		padding-left: 17px;
+	#articlescrubber-project .project-title h1 {
+		/*font-size: 1em;*/
+		letter-spacing: 8px;
+		padding-left: 8px;
 	}
 
-	#webscraper-project .project-title {
-		width: 360px;
-	}
-
-	#webscraper-project .project-overview {
-		padding-top: 25%;
+	#articlescrubber-project .project-title {
+		width: 350px;
 	}
 }
 
@@ -963,16 +967,6 @@
 
 	#autotrack-project .project-title {
 		width: 320px;
-	}
-
-	#webscraper-project .project-title h1 {
-		font-size: 1.5em;
-		letter-spacing: 14px;
-		padding-left: 14px;
-	}
-
-	#webscraper-project .project-title {
-		width: 330px;
 	}
 
 	#bamazon-project .project-title h1 {
@@ -1023,16 +1017,19 @@
 		width: 330px;
 	}
 
-	#webscraper-project .overview {
+	#articlescrubber-project .project-title h1 {
+		font-size: 1em;
+		letter-spacing: 10px;
+		padding-left: 10px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 320px;
+	}
+
+	#articlescrubber-project .overview {
+		font-size: 1em;
 		padding: 0px 30px;
-	}
-
-	#webscraper-project .project-title h1 {
-		font-size: 1.3em;
-	}
-
-	#webscraper-project .project-title {
-		width: 310px;
 	}
 }
 
@@ -1055,13 +1052,13 @@
 		width: 280px;
 	}
 
-	#webscraper-project .project-title h1 {
-		font-size: 1.3em;
-		letter-spacing: 12px;
-		padding-left: 12px;
+	#articlescrubber-project .project-title h1 {
+		/*font-size: 1em;*/
+		letter-spacing: 8px;
+		padding-left: 8px;
 	}
 
-	#webscraper-project .project-title {
+	#articlescrubber-project .project-title {
 		width: 280px;
 	}
 
@@ -1093,6 +1090,10 @@
 /* General Project's Image Styling */
 @media screen and (max-width: 991px) {
 	.project-info .image {
+		width: 100%;
+	}
+
+	#articlescrubber-project .col-md-6 {
 		width: 100%;
 	}
 }
@@ -1279,93 +1280,64 @@
 	}
 }
 
-/* Web Scraper Image */
-@media screen and (max-width: 1285px) {
-	#webscraper-logo {
-		font-size: 4.5em;
-		margin-bottom: 40px;
-	}
-
-	#webscraper-logo span {
-		font-size: .7em;
-	}	
-}
-
-@media screen and (max-width: 1060px) {
-	#webscraper-logo {
-		font-size: 4em;
-		margin-top: 220px;
-	}
-
-	#webscraper-logo span {
-		font-size: .6em;
-	}	
-}
-
-@media screen and (max-width: 991px) {
-	#webscraper-logo {
-		font-size: 5em;
-		margin-top: 100px;
-	}
-
-	#webscraper-logo span {
-		font-size: .8em;
-	}
-
-	#webscraper-project .image a {
-		margin-bottom: 100px;
-	}	
-}
-
-@media screen and (max-width: 630px) {
-	#webscraper-logo {
-		font-size: 4.5em;
-		margin-bottom: 30px;
-	}
-
-	#webscraper-logo span {
-		font-size: .7em;
-	}
-}
-
-@media screen and (max-width: 530px) {
-	#webscraper-logo {
-		font-size: 4em;
-	}
-
-	#webscraper-logo span {
-		font-size: .6em;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	#webscraper-logo {
-		font-size: 3.5em;
-	}
-
-	#webscraper-logo span {
-		font-size: .5em;
-	}
-}
-
-@media screen and (max-width: 375px) {
-	#webscraper-logo {
-		font-size: 3em;
-		margin-top: 75px;
-	}
-
-	#webscraper-project .image a {
-		margin-bottom: 75px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	#webscraper-logo {
+/* Article Scrubber Image */
+@media screen and (max-width: 1275px) {
+	#articlescrubber-logo {
 		font-size: 2.5em;
 	}
 }
 
-/* BAMAZON */
+@media screen and (max-width: 1075px) {
+	#articlescrubber-logo {
+		font-size: 2.3em;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#articlescrubber-logo {
+		font-size: 3.5em;
+		padding-top: 70px;
+	}
+
+	#articlescrubber-project .image a {
+		margin-bottom: 70px;
+	}
+
+}
+
+@media screen and (max-width: 725px) {
+	#articlescrubber-logo {
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	#articlescrubber-logo {
+		font-size: 2.7em;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	#articlescrubber-logo {
+		font-size: 2.3em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#articlescrubber-logo {
+		font-size: 1.8em;
+		letter-spacing: 2px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	#articlescrubber-logo {
+		font-size: 1.5em;
+		letter-spacing: 2px;
+	}
+}
+
+/* Bamazon Image */
 @media screen and (max-width: 1240px) {
 	#bamazon-logo {
 		padding-top: 220px;
@@ -1409,7 +1381,7 @@
 	}
 }
 
-/* Hangman */
+/* Hangman Image */
 @media screen and (max-width: 1400px) {
 	#hangman-logo {
 		padding-top: 140px;
@@ -1448,3 +1420,4 @@
 		margin-bottom: 50px;
 	}
 }
+
