@@ -1,6 +1,7 @@
 // HOMEPAGE SCRIPT
 
 $(document).ready(function(){
+// ============ FUNCTIONS ============
 
 	// Removes opacity from fly in text
 	function intro(){
@@ -79,11 +80,19 @@ $(document).ready(function(){
 		}
 	}
 
-	// Main processes
+	// Scrolls down to the first project when arrow is clicked
+	function arrowScroll() {
+		$("html, body").animate({
+			scrollTop: $("#autotrack-project").offset().top
+		}, 1500);
+	}
+
+// ============ MAIN PROCESSES ============
 	setTimeout(intro, 500);
 	setTimeout(fadeIn, 3000);
 	setTimeout(scrollFadeIn, 7000);
 	setInterval(bounce, 500);
 	$(window).scroll(collapseNavbar);
+	$("#main-scroll").on("click", arrowScroll);
 	
 });
