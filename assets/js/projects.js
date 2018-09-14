@@ -1,7 +1,7 @@
 // FEATURED WORK
 
 $(document).ready(function(){
-
+// ============ FUNCTIONS ============
 	// Checks the coordinates of the navbar
 	function collapseNavbar() {
 		// If the coordinates is greater than 100, the navbar collapses into mobile display
@@ -23,7 +23,7 @@ $(document).ready(function(){
 	}
 
 	// Changes background color from transparent to black when navbar button is toggled
-	$("#toggle-menu").on("click", function(){
+	function menuToggle() {
 
 		// Grab boolean value from #toggle-menu
 		var toggleValue = $("#toggle-menu").attr("value");
@@ -40,7 +40,7 @@ $(document).ready(function(){
 			$(".navbar-header").addClass("spread-menu");
 			$("#toggle-menu").attr("value", "true");
 		}
-	});
+	}
 
 	// Fades in navbar
 	function navbarFadeIn(){
@@ -81,12 +81,13 @@ $(document).ready(function(){
 		$(".scroll-arrow").fadeIn(3000);
 	}
 	
-	// Main Processes
+// ============ MAIN PROCESSES ============
 	$(window).scroll(collapseNavbar);
 	navbarFadeIn();
 	setTimeout(logoFadeIn, 1500);
 	setTimeout(contentFadeIn, 3000);
 	setInterval(arrowFadeIn, 4000);
 	setInterval(bounce, 500);
+	$("#toggle-menu").on("click", menuToggle);
 	
 });

@@ -24,7 +24,7 @@ $(document).ready(function(){
 	}
 
 	// Changes background color from transparent to black when navbar button is toggled
-	$("#toggle-menu").on("click", function(){
+	function menuToggle(){
 
 		// Grabs boolean value of #toggle-menu
 		var toggleValue = $("#toggle-menu").attr("value");
@@ -41,7 +41,7 @@ $(document).ready(function(){
 			$(".navbar-header").addClass("spread-menu");
 			$("#toggle-menu").attr("value", "true");
 		}
-	});
+	}
 
 	// Fades in navbar
 	function navbarFadeIn(){
@@ -98,5 +98,5 @@ $(document).ready(function(){
 	setInterval(arrowFadeIn, 4000);
 	setInterval(bounce, 500);
 	$("#scroll-arrow").on("click", arrowScroll);
-	
+	$("#toggle-menu").on("click", menuToggle);
 });

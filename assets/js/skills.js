@@ -1,6 +1,7 @@
 // Skills Page
 
 $(document).ready(function(){
+// ============ FUNCTIONS ============
 
 	// Checks the coordinates of the navbar
 	function collapseNavbar() {
@@ -23,7 +24,7 @@ $(document).ready(function(){
 	}
 
 	// Changes background color from transparent to black when navbar button is toggled
-	$("#toggle-menu").on("click", function(){
+	function menuToggle() {
 
 		// Grabs boolean value from #toggle-menu
 		var toggleValue = $("#toggle-menu").attr("value");
@@ -40,7 +41,7 @@ $(document).ready(function(){
 			$(".navbar-header").addClass("spread-menu");
 			$("#toggle-menu").attr("value", "true");
 		}
-	});
+	}
 
 	// Fades in navbar
 	function navbarFadeIn(){
@@ -57,11 +58,12 @@ $(document).ready(function(){
 		$('#je-logo').css('visibility','visible').hide().fadeIn(3000);
 	}
 
-	// Main Processes
+// ============ MAIN PROCESSES ============
 	$(window).scroll(collapseNavbar);
 	navbarFadeIn();
 	setTimeout(logoFadeIn, 1500);
 	setTimeout(contentFadeIn, 3000);
+	$("#toggle-menu").on("click", menuToggle);
 });
 
 
