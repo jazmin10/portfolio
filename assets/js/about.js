@@ -1,6 +1,7 @@
 // ABOUT PAGE SCRIPT
 
 $(document).ready(function(){
+// ============ FUNCTIONS ============
 
 	// Checks the coordinates of the navbar
 	function collapseNavbar() {
@@ -82,13 +83,20 @@ $(document).ready(function(){
 			$("#scroll-arrow").attr("value", "false");
 		}
 	}
+
+	function arrowScroll() {
+		$("html, body").animate({
+			scrollTop: $("#about-me").offset().top
+		}, 1500);
+	}
 	
-	// Main processes
+// ============ MAIN PROCESSES ============
 	$(window).scroll(collapseNavbar);
 	navbarFadeIn();
 	setTimeout(logoFadeIn, 1500);
 	setTimeout(contentFadeIn, 3000);
 	setInterval(arrowFadeIn, 4000);
 	setInterval(bounce, 500);
+	$("#scroll-arrow").on("click", arrowScroll);
 	
 });
