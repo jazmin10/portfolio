@@ -80,6 +80,13 @@ $(document).ready(function(){
 	function arrowFadeIn(){
 		$(".scroll-arrow").fadeIn(3000);
 	}
+
+	// Scrolls down to the project info when arrow is clicked
+	function arrowScroll() {
+		$("html, body").animate({
+			scrollTop: $(".project-info").offset().top
+		}, 1500);
+	}
 	
 // ============ MAIN PROCESSES ============
 	$(window).scroll(collapseNavbar);
@@ -89,5 +96,6 @@ $(document).ready(function(){
 	setInterval(arrowFadeIn, 4000);
 	setInterval(bounce, 500);
 	$("#toggle-menu").on("click", menuToggle);
+	$(".scroll-arrow").on("click", arrowScroll);
 	
 });
